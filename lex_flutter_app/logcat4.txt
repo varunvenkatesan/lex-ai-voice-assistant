@@ -1,0 +1,2530 @@
+﻿
+02-19 16:39:18.710 
+24235 24235 D 
+[Live2D]: 
+[CSM][I]Live2D 
+Cubism Core version: 
+05.01.0000 (83951616)
+02-19 16:39:18.710 
+24235 24235 D 
+[Live2D]: [CSM][I]Cub
+ismFramework.startUp(
+) is complete.
+02-19 16:39:19.292 
+24235 24458 D 
+[Live2D]: [CSM][I]Cub
+ismFramework::Initial
+ize() is complete.
+02-19 16:39:19.444 
+24235 24235 D 
+[Live2D]: 
+setModelJsonPath: flu
+tter_assets/packages/
+flutter_plugin2/asset
+s/runtime/mao_pro.mod
+el3.json
+02-19 16:39:19.476 
+24235 24458 D 
+[Live2D]: Loading 
+model - dir: flutter_
+assets/packages/flutt
+er_plugin2/assets/run
+time/, file: 
+mao_pro.model3.json
+02-19 16:39:19.501 
+24235 24458 D 
+[Live2D]: load model 
+setting: 
+mao_pro.model3.json
+02-19 16:39:19.501 
+24235 24458 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+mao_pro.model3.json
+02-19 16:39:19.535 
+24235 24458 D 
+[Live2D]: create 
+model: mao_pro.moc3
+02-19 16:39:19.535 
+24235 24458 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+mao_pro.moc3
+02-19 16:39:19.766 
+24235 24458 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+expressions/exp_01.ex
+p3.json
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/e
+xpressions/exp_01.exp
+3.json
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/expressio
+ns/exp_01.exp3.json
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:311)
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:39:19.774 
+24235 24458 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:39:19.787 
+24235 24458 E 
+[Live2D]: Error 
+loading model: flutte
+r_assets/packages/flu
+tter_plugin2/assets/r
+untime/mao_pro.model3
+.json
+02-19 16:39:19.787 
+24235 24458 E 
+[Live2D]: java.lang.I
+llegalArgumentExcepti
+on: Parsed JSON data 
+is empty.
+02-19 16:39:19.787 
+24235 24458 E 
+[Live2D]: 	at com.liv
+e2d.sdk.cubism.framew
+ork.utils.jsonparser.
+CubismJson.create(Cub
+ismJson.java:29)
+02-19 16:39:19.787 
+24235 24458 E 
+[Live2D]: 	at com.liv
+e2d.sdk.cubism.framew
+ork.motion.CubismExpr
+essionMotion.parse(Cu
+bismExpressionMotion.
+java:132)
+02-19 16:39:19.787 
+24235 24458 E 
+[Live2D]: 	at com.liv
+e2d.sdk.cubism.framew
+ork.motion.CubismExpr
+essionMotion.create(C
+ubismExpressionMotion
+.java:87)
+02-19 16:39:19.787 
+24235 24458 E 
+[Live2D]: 	at com.liv
+e2d.sdk.cubism.framew
+ork.model.CubismUserM
+odel.loadExpression(C
+ubismUserModel.java:3
+49)
+02-19 16:39:19.787 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:312)
+02-19 16:39:19.787 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:39:19.787 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:39:19.787 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:39:19.787 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:39:19.787 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:39:19.787 
+24235 24458 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:39:19.787 
+24235 24458 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:39:19.787 
+24235 24458 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:35.091 
+24577 24577 D 
+[Live2D]: 
+[CSM][I]Live2D 
+Cubism Core version: 
+05.01.0000 (83951616)
+02-19 16:44:35.091 
+24577 24577 D 
+[Live2D]: [CSM][I]Cub
+ismFramework.startUp(
+) is complete.
+02-19 16:44:35.770 
+24577 24675 D 
+[Live2D]: [CSM][I]Cub
+ismFramework::Initial
+ize() is complete.
+02-19 16:44:35.909 
+24577 24577 D 
+[Live2D]: 
+setModelJsonPath: flu
+tter_assets/packages/
+flutter_plugin2/asset
+s/runtime/mao_pro.mod
+el3.json
+02-19 16:44:35.995 
+24577 24675 D 
+[Live2D]: Loading 
+model - dir: flutter_
+assets/packages/flutt
+er_plugin2/assets/run
+time/, file: 
+mao_pro.model3.json
+02-19 16:44:36.108 
+24577 24675 D 
+[Live2D]: load model 
+setting: 
+mao_pro.model3.json
+02-19 16:44:36.119 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+mao_pro.model3.json
+02-19 16:44:36.226 
+24577 24675 D 
+[Live2D]: create 
+model: mao_pro.moc3
+02-19 16:44:36.226 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+mao_pro.moc3
+02-19 16:44:36.780 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+expressions/exp_01.ex
+p3.json
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/e
+xpressions/exp_01.exp
+3.json
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/expressio
+ns/exp_01.exp3.json
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:312)
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:36.790 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:36.790 
+24577 24675 D 
+[Live2D]: Expression 
+file is empty or 
+missing: flutter_asse
+ts/packages/flutter_p
+lugin2/assets/runtime
+/expressions/exp_01.e
+xp3.json
+02-19 16:44:36.791 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+expressions/exp_02.ex
+p3.json
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/e
+xpressions/exp_02.exp
+3.json
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/expressio
+ns/exp_02.exp3.json
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:312)
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:36.799 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:36.800 
+24577 24675 D 
+[Live2D]: Expression 
+file is empty or 
+missing: flutter_asse
+ts/packages/flutter_p
+lugin2/assets/runtime
+/expressions/exp_02.e
+xp3.json
+02-19 16:44:36.800 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+expressions/exp_03.ex
+p3.json
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/e
+xpressions/exp_03.exp
+3.json
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/expressio
+ns/exp_03.exp3.json
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:312)
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:36.804 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:36.804 
+24577 24675 D 
+[Live2D]: Expression 
+file is empty or 
+missing: flutter_asse
+ts/packages/flutter_p
+lugin2/assets/runtime
+/expressions/exp_03.e
+xp3.json
+02-19 16:44:36.804 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+expressions/exp_04.ex
+p3.json
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/e
+xpressions/exp_04.exp
+3.json
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/expressio
+ns/exp_04.exp3.json
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:312)
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:36.806 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:36.807 
+24577 24675 D 
+[Live2D]: Expression 
+file is empty or 
+missing: flutter_asse
+ts/packages/flutter_p
+lugin2/assets/runtime
+/expressions/exp_04.e
+xp3.json
+02-19 16:44:36.811 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+expressions/exp_05.ex
+p3.json
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/e
+xpressions/exp_05.exp
+3.json
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/expressio
+ns/exp_05.exp3.json
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:312)
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:36.815 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:36.815 
+24577 24675 D 
+[Live2D]: Expression 
+file is empty or 
+missing: flutter_asse
+ts/packages/flutter_p
+lugin2/assets/runtime
+/expressions/exp_05.e
+xp3.json
+02-19 16:44:36.815 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+expressions/exp_06.ex
+p3.json
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/e
+xpressions/exp_06.exp
+3.json
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/expressio
+ns/exp_06.exp3.json
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:312)
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:36.819 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:36.821 
+24577 24675 D 
+[Live2D]: Expression 
+file is empty or 
+missing: flutter_asse
+ts/packages/flutter_p
+lugin2/assets/runtime
+/expressions/exp_06.e
+xp3.json
+02-19 16:44:36.822 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+expressions/exp_07.ex
+p3.json
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/e
+xpressions/exp_07.exp
+3.json
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/expressio
+ns/exp_07.exp3.json
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:312)
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:36.825 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:36.825 
+24577 24675 D 
+[Live2D]: Expression 
+file is empty or 
+missing: flutter_asse
+ts/packages/flutter_p
+lugin2/assets/runtime
+/expressions/exp_07.e
+xp3.json
+02-19 16:44:36.826 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+expressions/exp_08.ex
+p3.json
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/e
+xpressions/exp_08.exp
+3.json
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/expressio
+ns/exp_08.exp3.json
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:312)
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:36.834 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:36.835 
+24577 24675 D 
+[Live2D]: Expression 
+file is empty or 
+missing: flutter_asse
+ts/packages/flutter_p
+lugin2/assets/runtime
+/expressions/exp_08.e
+xp3.json
+02-19 16:44:36.835 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+mao_pro.physics3.json
+02-19 16:44:36.947 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+mao_pro.pose3.json
+02-19 16:44:36.967 
+24577 24675 D 
+[Live2D]: load 
+motion: motions/mtn_0
+1.motion3.json==>[Idl
+e_0]
+02-19 16:44:36.967 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+motions/mtn_01.motion
+3.json
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/m
+otions/mtn_01.motion3
+.json
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/motions/m
+tn_01.motion3.json
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.preLoadMotio
+nGroup(LAppModel.java
+:437)
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:414)
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:36.971 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:36.981 
+24577 24675 D 
+[Live2D]: Motion 
+file is empty or 
+missing: flutter_asse
+ts/packages/flutter_p
+lugin2/assets/runtime
+/motions/mtn_01.motio
+n3.json
+02-19 16:44:36.983 
+24577 24675 D 
+[Live2D]: load 
+motion: motions/mtn_0
+2.motion3.json==>[_0]
+02-19 16:44:36.983 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+motions/mtn_02.motion
+3.json
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/m
+otions/mtn_02.motion3
+.json
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/motions/m
+tn_02.motion3.json
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.preLoadMotio
+nGroup(LAppModel.java
+:437)
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:414)
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:36.998 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:36.998 
+24577 24675 D 
+[Live2D]: Motion 
+file is empty or 
+missing: flutter_asse
+ts/packages/flutter_p
+lugin2/assets/runtime
+/motions/mtn_02.motio
+n3.json
+02-19 16:44:36.998 
+24577 24675 D 
+[Live2D]: load 
+motion: motions/mtn_0
+3.motion3.json==>[_1]
+02-19 16:44:36.998 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+motions/mtn_03.motion
+3.json
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/m
+otions/mtn_03.motion3
+.json
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/motions/m
+tn_03.motion3.json
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.preLoadMotio
+nGroup(LAppModel.java
+:437)
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:414)
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:37.003 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:37.003 
+24577 24675 D 
+[Live2D]: Motion 
+file is empty or 
+missing: flutter_asse
+ts/packages/flutter_p
+lugin2/assets/runtime
+/motions/mtn_03.motio
+n3.json
+02-19 16:44:37.003 
+24577 24675 D 
+[Live2D]: load 
+motion: motions/mtn_0
+4.motion3.json==>[_2]
+02-19 16:44:37.003 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+motions/mtn_04.motion
+3.json
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/m
+otions/mtn_04.motion3
+.json
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/motions/m
+tn_04.motion3.json
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.preLoadMotio
+nGroup(LAppModel.java
+:437)
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:414)
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:37.012 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:37.012 
+24577 24675 D 
+[Live2D]: Motion 
+file is empty or 
+missing: flutter_asse
+ts/packages/flutter_p
+lugin2/assets/runtime
+/motions/mtn_04.motio
+n3.json
+02-19 16:44:37.012 
+24577 24675 D 
+[Live2D]: load 
+motion: motions/speci
+al_01.motion3.json==>
+[_3]
+02-19 16:44:37.012 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+motions/special_01.mo
+tion3.json
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/m
+otions/special_01.mot
+ion3.json
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/motions/s
+pecial_01.motion3.jso
+n
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.preLoadMotio
+nGroup(LAppModel.java
+:437)
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:414)
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:37.018 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:37.019 
+24577 24675 D 
+[Live2D]: Motion 
+file is empty or 
+missing: flutter_asse
+ts/packages/flutter_p
+lugin2/assets/runtime
+/motions/special_01.m
+otion3.json
+02-19 16:44:37.019 
+24577 24675 D 
+[Live2D]: load 
+motion: motions/speci
+al_02.motion3.json==>
+[_4]
+02-19 16:44:37.019 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+motions/special_02.mo
+tion3.json
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/m
+otions/special_02.mot
+ion3.json
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/motions/s
+pecial_02.motion3.jso
+n
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.preLoadMotio
+nGroup(LAppModel.java
+:437)
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:414)
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:37.022 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:37.023 
+24577 24675 D 
+[Live2D]: Motion 
+file is empty or 
+missing: flutter_asse
+ts/packages/flutter_p
+lugin2/assets/runtime
+/motions/special_02.m
+otion3.json
+02-19 16:44:37.023 
+24577 24675 D 
+[Live2D]: load 
+motion: motions/speci
+al_03.motion3.json==>
+[_5]
+02-19 16:44:37.023 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+motions/special_03.mo
+tion3.json
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/m
+otions/special_03.mot
+ion3.json
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/motions/s
+pecial_03.motion3.jso
+n
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.preLoadMotio
+nGroup(LAppModel.java
+:437)
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupModel(L
+AppModel.java:414)
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:59)
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:37.024 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:37.024 
+24577 24675 D 
+[Live2D]: Motion 
+file is empty or 
+missing: flutter_asse
+ts/packages/flutter_p
+lugin2/assets/runtime
+/motions/special_03.m
+otion3.json
+02-19 16:44:37.061 
+24577 24675 E 
+[Live2D]: Cannot 
+open texture: flutter
+_assets/packages/flut
+ter_plugin2/assets/ru
+ntime/mao_pro.4096/te
+xture_00.png
+02-19 16:44:37.061 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/mao_pro.4
+096/texture_00.png
+02-19 16:44:37.061 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:37.061 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:37.061 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:37.061 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppTextureManager.cre
+ateTextureFromPngFile
+(LAppTextureManager.j
+ava:40)
+02-19 16:44:37.061 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.setupTexture
+s(LAppModel.java:476)
+02-19 16:44:37.061 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.loadAssets(L
+AppModel.java:70)
+02-19 16:44:37.061 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.load
+Model(LAppLive2DManag
+er.java:46)
+02-19 16:44:37.061 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.loadModelOn
+GLThread(Live2dView.j
+ava:240)
+02-19 16:44:37.061 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.lambda$onMe
+thodCall$0(Live2dView
+.java:121)
+02-19 16:44:37.061 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView.$r8$lambda$
+oUAEQHEd1uKd3F0i4pNHD
+TzLFgI(Unknown 
+Source:0)
+02-19 16:44:37.061 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$$ExternalSy
+ntheticLambda0.run(D8
+$$SyntheticClass:0)
+02-19 16:44:37.061 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+02)
+02-19 16:44:37.061 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+02-19 16:44:37.062 
+24577 24675 D 
+[Live2D]: Failed to 
+load texture: flutter
+_assets/packages/flut
+ter_plugin2/assets/ru
+ntime/mao_pro.4096/te
+xture_00.png
+02-19 16:44:37.062 
+24577 24675 D 
+[Live2D]: Model 
+loaded: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+mao_pro.model3.json
+02-19 16:44:37.069 
+24577 24675 D 
+[Live2D]: create 
+buffer: flutter_asset
+s/packages/flutter_pl
+ugin2/assets/runtime/
+motions/mtn_01.motion
+3.json
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: File open 
+error: flutter_assets
+/packages/flutter_plu
+gin2/assets/runtime/m
+otions/mtn_01.motion3
+.json
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: java.io.Fil
+eNotFoundException: f
+lutter_assets/package
+s/flutter_plugin2/ass
+ets/runtime/motions/m
+tn_01.motion3.json
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.nativeOpenAsset(
+Native Method)
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:1012)
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: 	at android
+.content.res.AssetMan
+ager.open(AssetManage
+r.java:989)
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppPal.loadFileAsByte
+s(LAppPal.java:48)
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.createBuffer
+(LAppModel.java:282)
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.startMotion(
+LAppModel.java:175)
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.startRandomM
+otion(LAppModel.java:
+213)
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.startRandomM
+otion(LAppModel.java:
+201)
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppModel.update(LAppM
+odel.java:90)
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppLive2DManager.onUp
+date(LAppLive2DManage
+r.java:78)
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+AppDelegate.run(LAppD
+elegate.java:68)
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: 	at com.pla
+net.flutter_plugin2.L
+ive2dView$1.onDrawFra
+me(Live2dView.java:73
+)
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.guardedRun(
+GLSurfaceView.java:15
+73)
+02-19 16:44:37.071 
+24577 24675 E 
+[Live2D]: 	at android
+.opengl.GLSurfaceView
+$GLThread.run(GLSurfa
+ceView.java:1272)
+
+

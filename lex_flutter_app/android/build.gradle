@@ -1,0 +1,58 @@
+group 'com.planet.flutter_plugin2'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.9.1'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new RuntimeException("Flutter SDK not found. Define flutter.sdk in local.properties.")
+}
+
+android {
+    namespace 'com.planet.flutter_plugin2'
+    compileSdk 36
+    ndkVersion "27.0.12077973"
+
+    defaultConfig {
+        minSdkVersion 21
+    }
+    lint {
+        disable 'InvalidPackage'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation files('libs/Live2DCubismCore.jar')
+    compileOnly files("$flutterRoot/bin/cache/artifacts/engine/android-arm64/flutter.jar")
+    implementation 'androidx.annotation:annotation:1.8.2'
+}

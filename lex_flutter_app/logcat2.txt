@@ -1,0 +1,3 @@
+﻿--------- beginning of main
+02-19 16:37:22.038  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:37:24.166   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]

@@ -1,0 +1,95 @@
+﻿Running Gradle task 'assembleDebug'...                          
+flutter : Note: Some 
+input files use 
+unchecked or unsafe 
+operations.
+At line:1 char:87
++ ... r_live2d_plugin
+-main\example"; 
+flutter build apk 
+--debug 2>&1 | Out-F 
+...
++                    
+                ~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Note: S   
+ ome inpu...afe o    
+perations.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+Note: Recompile with 
+-Xlint:unchecked for 
+details.
+
+FAILURE: Build 
+failed with an 
+exception.
+
+* What went wrong:
+Execution failed for 
+task ':flutter_plugin
+2:bundleDebugAar'.
+> Error while 
+evaluating property 
+'hasLocalAarDeps' of 
+task ':flutter_plugin
+2:bundleDebugAar'.
+   > Direct local 
+.aar file 
+dependencies are not 
+supported when 
+building an AAR. The 
+resulting AAR would 
+be broken because 
+the classes and 
+Android resources 
+from any local .aar 
+file dependencies 
+would not be 
+packaged in the 
+resulting AAR. 
+Previous versions of 
+the Android Gradle 
+Plugin produce 
+broken AARs in this 
+case too (despite 
+not throwing this 
+error). The 
+following direct 
+local .aar file 
+dependencies of the 
+:flutter_plugin2 
+project caused this 
+error: D:\Projects\an
+ime\flutter_live2d_pl
+ugin-main\flutter_liv
+e2d_plugin-main\andro
+id\libs\Live2DCubismC
+ore.aar
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to 
+get more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at ht
+tps://help.gradle.org
+.
+
+BUILD FAILED in 18s
+Running Gradle task 'assembleDebug'...                             19.7s
+Gradle task 
+assembleDebug failed 
+with exit code 1

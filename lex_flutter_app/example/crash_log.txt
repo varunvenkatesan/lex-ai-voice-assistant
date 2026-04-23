@@ -1,0 +1,34 @@
+﻿--------- beginning of main
+02-20 14:24:58.161 31639 31639 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+--------- beginning of system
+02-20 14:24:59.826   770  1682 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+02-20 14:25:02.710   252   262 E lowmemorykiller: process_mrelease 31283 failed: No such process
+02-20 14:25:08.738   770   822 E ModeChangeObserver: Changed display not found
+02-20 14:25:08.784   618   618 E SurfaceFlinger: [flutter-vd#0] getUniqueId: Invalid operation on virtual display
+02-20 14:25:09.715 31639 31730 E [Live2D]: File open error: flutter_assets/packages/flutter_plugin2/assets/runtime/mao_pro.model3.json
+02-20 14:25:09.715 31639 31730 E [Live2D]: java.io.FileNotFoundException: flutter_assets/packages/flutter_plugin2/assets/runtime/mao_pro.model3.json
+02-20 14:25:09.715 31639 31730 E [Live2D]: 	at android.content.res.AssetManager.nativeOpenAsset(Native Method)
+02-20 14:25:09.715 31639 31730 E [Live2D]: 	at android.content.res.AssetManager.open(AssetManager.java:1012)
+02-20 14:25:09.715 31639 31730 E [Live2D]: 	at android.content.res.AssetManager.open(AssetManager.java:989)
+02-20 14:25:09.715 31639 31730 E [Live2D]: 	at com.planet.flutter_plugin2.LAppPal.loadFileAsBytes(LAppPal.java:48)
+02-20 14:25:09.715 31639 31730 E [Live2D]: 	at com.planet.flutter_plugin2.LAppModel.createBuffer(LAppModel.java:282)
+02-20 14:25:09.715 31639 31730 E [Live2D]: 	at com.planet.flutter_plugin2.LAppModel.loadAssets(LAppModel.java:55)
+02-20 14:25:09.715 31639 31730 E [Live2D]: 	at com.planet.flutter_plugin2.LAppLive2DManager.loadModel(LAppLive2DManager.java:46)
+02-20 14:25:09.715 31639 31730 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.loadModelOnGLThread(Live2dView.java:240)
+02-20 14:25:09.715 31639 31730 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.lambda$onMethodCall$0(Live2dView.java:121)
+02-20 14:25:09.715 31639 31730 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.$r8$lambda$oUAEQHEd1uKd3F0i4pNHDTzLFgI(Unknown Source:0)
+02-20 14:25:09.715 31639 31730 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+02-20 14:25:09.715 31639 31730 E [Live2D]: 	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1502)
+02-20 14:25:09.715 31639 31730 E [Live2D]: 	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1272)
+02-20 14:25:09.727 31639 31730 E [Live2D]: Error loading model: flutter_assets/packages/flutter_plugin2/assets/runtime/mao_pro.model3.json
+02-20 14:25:09.727 31639 31730 E [Live2D]: java.lang.IllegalArgumentException: Parsed JSON data is empty.
+02-20 14:25:09.727 31639 31730 E [Live2D]: 	at com.live2d.sdk.cubism.framework.utils.jsonparser.CubismJson.create(CubismJson.java:29)
+02-20 14:25:09.727 31639 31730 E [Live2D]: 	at com.live2d.sdk.cubism.framework.CubismModelSettingJson.<init>(CubismModelSettingJson.java:26)
+02-20 14:25:09.727 31639 31730 E [Live2D]: 	at com.planet.flutter_plugin2.LAppModel.loadAssets(LAppModel.java:57)
+02-20 14:25:09.727 31639 31730 E [Live2D]: 	at com.planet.flutter_plugin2.LAppLive2DManager.loadModel(LAppLive2DManager.java:46)
+02-20 14:25:09.727 31639 31730 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.loadModelOnGLThread(Live2dView.java:240)
+02-20 14:25:09.727 31639 31730 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.lambda$onMethodCall$0(Live2dView.java:121)
+02-20 14:25:09.727 31639 31730 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.$r8$lambda$oUAEQHEd1uKd3F0i4pNHDTzLFgI(Unknown Source:0)
+02-20 14:25:09.727 31639 31730 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+02-20 14:25:09.727 31639 31730 E [Live2D]: 	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1502)
+02-20 14:25:09.727 31639 31730 E [Live2D]: 	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1272)

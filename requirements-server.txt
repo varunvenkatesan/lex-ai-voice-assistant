@@ -1,0 +1,10 @@
+# Token server deployment requirements (subset of requirements.txt)
+# Only includes dependencies needed by token_server.py
+fastapi
+uvicorn[standard]
+requests
+python-dotenv
+livekit-api
+pydantic
+mem0ai
+gunicorn

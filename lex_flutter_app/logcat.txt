@@ -1,0 +1,574 @@
+﻿--------- beginning of system
+02-19 16:33:40.864   770  1004 D BackgroundInstallControlService: Package event received: 0
+--------- beginning of main
+02-19 16:33:41.111   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:33:41.375   770   897 D ActivityManager: freezing 23679 com.google.android.apps.messaging
+02-19 16:33:41.718   770   897 D ActivityManager: freezing 21403 com.google.android.gms
+02-19 16:33:41.796   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:41.796   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:41.796   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={10164} in 1ms
+02-19 16:33:41.800   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:41.804   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:41.804   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={20164} in 7ms
+02-19 16:33:42.506 23888 23914 W .apps.safetyhub: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+02-19 16:33:42.544   770   897 D ActivityManager: freezing 23889 android.process.acore
+02-19 16:33:42.551   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:42.552   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:42.552   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={10096} in 1ms
+02-19 16:33:42.722   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:42.723   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:42.723   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={10138} in 2ms
+02-19 16:33:42.726   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:42.730   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:42.730   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={20138} in 7ms
+02-19 16:33:44.125   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:33:45.973  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:33:46.234  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:33:46.235  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:33:47.138   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:33:48.457   770   897 D ActivityManager: freezing 23815 com.google.android.apps.photos
+02-19 16:33:48.464   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:48.464   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:48.466   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={10162} in 3ms
+02-19 16:33:48.675 24008 24019 W gs.intelligence: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+02-19 16:33:48.945 23862 23867 W id.apps.restore: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+02-19 16:33:48.974 23862 23871 V ClearcutMetricXmitter: Transmission is done.
+02-19 16:33:48.980 23862 23871 V ClearcutMetricXmitter: Transmission is done.
+02-19 16:33:48.993   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:48.993   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:48.993   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={10149} in 1ms
+02-19 16:33:49.001   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:49.002   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:49.004   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={20149} in 1ms
+02-19 16:33:49.093   770   897 D ActivityManager: freezing 23862 com.google.android.apps.restore
+02-19 16:33:49.098   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:49.099   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:49.099   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={10140} in 3ms
+02-19 16:33:49.708   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:49.709   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:49.709   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={10157} in 1ms
+02-19 16:33:49.711   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:49.712   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:49.712   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={20157} in 1ms
+02-19 16:33:50.147   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:33:51.361   770   897 D ActivityManager: freezing 23888 com.google.android.apps.safetyhub
+02-19 16:33:51.367   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:51.372   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:51.372   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={10148} in 7ms
+02-19 16:33:51.797   770   897 D ActivityManager: freezing 23937 com.google.android.deskclock
+02-19 16:33:51.799   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:51.800   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:51.800   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={10164} in 1ms
+02-19 16:33:52.716   770   897 D ActivityManager: freezing 23960 com.google.android.dialer
+02-19 16:33:52.722   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:52.723   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:52.723   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={10138} in 1ms
+02-19 16:33:52.757   770   857 W PackageManager: Not removing package com.google.android.trichromelibrary hosting lib com.google.android.trichromelibrary version 755910938 used by [VersionedPackage[com.google.android.webview/755910938]] for user 0
+02-19 16:33:53.156   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:33:53.895   770   897 D ActivityManager: freezing 22448 com.google.android.apps.wellbeing
+02-19 16:33:53.902   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:53.903   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:53.903   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={10151} in 1ms
+02-19 16:33:53.910  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:33:54.961   770   897 D ActivityManager: freezing 23986 com.google.android.permissioncontroller
+02-19 16:33:54.966   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:54.968   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:54.968   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={10208} in 5ms
+02-19 16:33:56.162   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:33:56.233  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:33:56.235  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:33:59.006   770   897 D ActivityManager: freezing 24008 com.google.android.settings.intelligence
+02-19 16:33:59.010   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:59.012   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:59.012   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={10149} in 3ms
+02-19 16:33:59.175   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:33:59.701   770   897 D ActivityManager: freezing 24040 com.google.android.tts
+02-19 16:33:59.705   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-19 16:33:59.708   770   954 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-19 16:33:59.708   770   954 D InetDiagMessage: Destroyed live tcp sockets for uids={10157} in 4ms
+02-19 16:34:02.103  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:34:02.184   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:05.191   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:06.234  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:34:06.237  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:34:08.205   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:10.037  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:34:11.217   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:14.232   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:16.234  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:34:16.234  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:34:17.246   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:17.973  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:34:20.258   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:23.269   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:25.909  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:34:26.236  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:34:26.237  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:34:26.280   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:29.291   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:31.515   770   842 D AppOpHistoryHelper: MetricHandler reporting 12 records.
+02-19 16:34:32.303   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:34.101  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:34:35.311   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:36.235  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:34:36.236  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:34:38.333   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:41.350   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:42.038  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:34:42.325 23462 23504 I plugin2_example: NativeAlloc concurrent mark compact GC freed 2940KB AllocSpace bytes, 1(852KB) LOS objects, 49% free, 3223KB/6447KB, paused 10.414ms,3.799ms total 86.581ms
+02-19 16:34:43.064 23462 23462 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+02-19 16:34:43.070   770  1942 D CoreBackPreview: Window{7abf366 u0 com.planet.flutter_plugin2_example}: Setting back callback null
+02-19 16:34:43.093   770  1942 V VirtualDisplayAdapter: Release VirtualDisplay flutter-vd#0
+02-19 16:34:43.099   618   739 D SurfaceFlinger: Destroying virtual display: flutter-vd#0
+02-19 16:34:43.100   770  1942 D DisplayManagerService: Virtual Display: Display Device released
+02-19 16:34:43.101   770  1942 I DisplayDeviceRepository: Display device removed: DisplayDeviceInfo{"flutter-vd#0": uniqueId="virtual:com.planet.flutter_plugin2_example,10225,flutter-vd#0,8", 1080 x 1828, modeId 10, renderFrameRate 60.0, hasArrSupport false, frameRateCategoryRate null, supportedRefreshRates [], defaultModeId 10, userPreferredModeId -1, supportedModes [{id=10, parentModeId=-1, flags=, width=1080, height=1828, fps=60.0, vsync=60.0, alternativeRefreshRates=[], supportedHdrTypes=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities null, isForceSdr false, allmSupported false, gameContentTypeSupported false, density 420, 420.0 x 420.0 dpi, appVsyncOff 0, presDeadline 16666666, touch NONE, rotation 0, type VIRTUAL, deviceProductInfo null, state ON, committedState UNKNOWN, owner com.planet.flutter_plugin2_example (uid 10225), frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.0, brightnessDim -1.0, hdrSdrRatio NaN, FLAG_PRIVATE, FLAG_NEVER_BLANK, FLAG_OWN_CONTENT_ONLY, installOrientation 0, displayShape DisplayShape{ spec=475645367 displayWidth=1080 displayHeight=1828 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+02-19 16:34:43.105   770  1942 I DisplayManagerService: Logical display removed: 10
+02-19 16:34:43.109 23462 23508 E BufferQueueProducer: [ImageReader-1080x1828f22m7-23462-0](id:5ba600000002,api:1,p:618,c:23462) queueBuffer: BufferQueue has been abandoned
+02-19 16:34:43.109   618   618 E Surface : [LegacyVirtualDisplaySurface](id:0) queueBuffer: error queuing buffer, -19
+02-19 16:34:43.110   618   618 E SurfaceFlinger: Error when queueing buffer for display [flutter-vd#0]: -19
+02-19 16:34:43.111   770   820 E WindowManager: DisplayContent already removed or removing.
+02-19 16:34:43.112 23462 23672 E BufferQueueProducer: [ImageReader-1080x1828f22m7-23462-0](id:5ba600000002,api:1,p:618,c:23462) cancelBuffer: BufferQueue has been abandoned
+02-19 16:34:43.125   618   618 D SurfaceFlinger: processDisplayRemoved: Optimizing thread scheduling: optimizeForPerformance
+02-19 16:34:43.143 23462 23508 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for descriptor: '(not cached)'
+02-19 16:34:43.161   770   822 E ModeChangeObserver: Removed display not found
+02-19 16:34:43.182 14657 14657 D TaskbarManager: onDisplayRemoved:  displayId=10 isDefaultDisplay=false
+02-19 16:34:43.182 14657 14657 D TaskbarManager: onDisplayRemoved: not an external display! | isExternalDisplay=false displayId=10 isDefaultDisplay=false
+02-19 16:34:43.595 23462 23462 I Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+02-19 16:34:44.360   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:45.328  1050  1176 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+02-19 16:34:45.337  1050  1176 D ControlsListingControllerImpl: Unsubscribing callback
+02-19 16:34:46.234  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:34:46.234  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:34:47.049 23462 23462 I PlatformViewsController: Hosting view in a virtual display for platform view: 0
+02-19 16:34:47.049 23462 23462 I PlatformViewsController: PlatformView is using SurfaceProducer backend
+02-19 16:34:47.054   770  1942 D DisplayManagerService: Virtual Display: creating DisplayDevice with VirtualDisplayAdapter
+02-19 16:34:47.055   618   629 D SurfaceFlinger: Creating virtual display: flutter-vd#0
+02-19 16:34:47.056   770  1942 I DisplayDeviceRepository: Display device added: DisplayDeviceInfo{"flutter-vd#0": uniqueId="virtual:com.planet.flutter_plugin2_example,10225,flutter-vd#0,9", 1080 x 1828, modeId 11, renderFrameRate 60.0, hasArrSupport false, frameRateCategoryRate null, supportedRefreshRates [], defaultModeId 11, userPreferredModeId -1, supportedModes [{id=11, parentModeId=-1, flags=, width=1080, height=1828, fps=60.0, vsync=60.0, alternativeRefreshRates=[], supportedHdrTypes=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities null, isForceSdr false, allmSupported false, gameContentTypeSupported false, density 420, 420.0 x 420.0 dpi, appVsyncOff 0, presDeadline 16666666, touch NONE, rotation 0, type VIRTUAL, deviceProductInfo null, state ON, committedState UNKNOWN, owner com.planet.flutter_plugin2_example (uid 10225), frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.0, brightnessDim -1.0, hdrSdrRatio NaN, FLAG_PRIVATE, FLAG_NEVER_BLANK, FLAG_OWN_CONTENT_ONLY, installOrientation 0, displayShape DisplayShape{ spec=475645367 displayWidth=1080 displayHeight=1828 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+02-19 16:34:47.057   770  1942 I LogicalDisplayMapper: Applying layout: [default_layout: [{dispId: 0(ON), displayGroupName: , addr: {port=0, model=0x401cec6a7a2b7b}, mThermalBrightnessThrottlingMapId: null, mRefreshRateZoneId: null, mLeadDisplayId: -1, mLeadDisplayAddress: null, mThermalRefreshRateThrottlingMapId: null, mPowerThrottlingMapId: null}]], Previous layout: [default_layout: [{dispId: 0(ON), displayGroupName: , addr: {port=0, model=0x401cec6a7a2b7b}, mThermalBrightnessThrottlingMapId: null, mRefreshRateZoneId: null, mLeadDisplayId: -1, mLeadDisplayAddress: null, mThermalRefreshRateThrottlingMapId: null, mPowerThrottlingMapId: null}]]
+02-19 16:34:47.058   770  1942 I LogicalDisplayMapper: Setting new display group 0 for display 11, from previous group: null, for reason: 0, with flags: 0
+02-19 16:34:47.061   770  1942 W DisplayPowerController[11]: Screen brightness nits configuration is unavailable; falling back
+02-19 16:34:47.066   770   852 D BrightnessThermalClamper: Thermal status observer already started
+02-19 16:34:47.068   770   819 D BrightnessThermalClamper: New thermal throttling status = 0
+02-19 16:34:47.101   770  1793 W WindowManager: attachWindowContextToDisplayContent: trying to attach to a non-existing display:11
+02-19 16:34:47.121   770  1793 D InsetsController: Setting requestedVisibleTypes to 240 (was 503)
+02-19 16:34:47.134   770   852 D BrightnessThermalClamper: Thermal status observer already started
+02-19 16:34:47.134   770   852 D BrightnessThermalClamper: Thermal status observer already started
+02-19 16:34:47.135   770  1793 I WindowManager: Override config changes=20005df8 {0.0 ?mcc0mnc ?localeList ?layoutDir sw411dp w411dp h696dp 420dpi nrml long compactNeeded port ?uimode ?night finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 1828) mAppBounds=Rect(0, 0 - 1080, 1828) mMaxBounds=Rect(0, 0 - 1080, 1828) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} ?fontWeightAdjustment} for displayId=11
+02-19 16:34:47.139   770  1793 I DisplayDevice: [11] Layerstack set to 11 for virtual:com.planet.flutter_plugin2_example,10225,flutter-vd#0,9
+02-19 16:34:47.148  1050  1097 W DisplayController: Skipping Display Configuration change on non-added display.
+02-19 16:34:47.157   770   770 W WindowTokenClientController: Can't find attached WindowTokenClient for android.window.WindowTokenClient@56c6b69
+02-19 16:34:47.176   770   822 E ModeChangeObserver: Changed display not found
+02-19 16:34:47.182   770   822 E ModeChangeObserver: Changed display not found
+02-19 16:34:47.192   770   820 D WindowManager: DeferredDisplayUpdater: applying DisplayInfo(1080 x 1828) immediately
+02-19 16:34:47.193   770   820 D WindowManager: Remove SleepToken: tag=Display-off, displayId=11
+02-19 16:34:47.197   770   820 D WindowManager: Remove non-existent sleep token: Display-off from com.android.server.wm.DisplayContent.onDisplayInfoUpdated:6195 com.android.server.wm.DeferredDisplayUpdater.applyLatestDisplayInfo:267 com.android.server.wm.DeferredDisplayUpdater.updateDisplayInfo:162 com.android.server.wm.DisplayContent.requestDisplayUpdate:6178 com.android.server.wm.RootWindowContainer.onDisplayChanged:2902 android.hardware.display.DisplayManagerGlobal$DisplayListenerDelegate.handleDisplayEventInner:1642 
+02-19 16:34:47.197   770   820 V WindowManager: Content Recording: Display 11 state was (2), is now (2), so update recording?
+02-19 16:34:47.206   770   820 D WindowManager: DeferredDisplayUpdater: applying DisplayInfo(1080 x 1828) immediately
+02-19 16:34:47.212   770   820 D WindowManager: Remove SleepToken: tag=Display-off, displayId=11
+02-19 16:34:47.212   770   820 D WindowManager: Remove non-existent sleep token: Display-off from com.android.server.wm.DisplayContent.onDisplayInfoUpdated:6195 com.android.server.wm.DeferredDisplayUpdater.applyLatestDisplayInfo:267 com.android.server.wm.DeferredDisplayUpdater.updateDisplayInfo:162 com.android.server.wm.DisplayContent.requestDisplayUpdate:6178 com.android.server.wm.RootWindowContainer.onDisplayChanged:2902 android.hardware.display.DisplayManagerGlobal$DisplayListenerDelegate.handleDisplayEventInner:1642 
+02-19 16:34:47.212   770   820 V WindowManager: Content Recording: Display 11 state was (2), is now (2), so update recording?
+02-19 16:34:47.233 14657 14657 D TaskbarManager: onDisplayAddSystemDecorations:  displayId=11 isDefaultDisplay=false
+02-19 16:34:47.235 14657 14657 D TaskbarManager: Cannot get display! displayId=11 isDefaultDisplay=false
+02-19 16:34:47.235 14657 14657 D TaskbarManager: onDisplayAddSystemDecorations: can't find display! displayId=11 isDefaultDisplay=false
+02-19 16:34:47.248 23462 23462 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda12@9f78ee7
+02-19 16:34:47.256   770  1793 D CoreBackPreview: Window{6ba00d9 u0 com.planet.flutter_plugin2_example}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@b1b1d4c, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+02-19 16:34:47.266   618   618 E SurfaceFlinger: [flutter-vd#0] getUniqueId: Invalid operation on virtual display
+02-19 16:34:47.266   618   618 D SurfaceFlinger: processDisplayAdded: Optimizing thread scheduling: optimizeForPerformance
+02-19 16:34:47.371   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:47.503 23462 24088 D [Live2D]: [CSM][W]CubismFramework.initialize() skipped, already initialized.
+02-19 16:34:49.109  1050  1176 I QuickAccessWalletTile: QAW service is unavailable, recreating the wallet client.
+02-19 16:34:49.973  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:34:50.133 23462 23462 I Choreographer: Skipped 99 frames!  The application may be doing too much work on its main thread.
+02-19 16:34:50.147 23462 23462 I flutter : Running on: Android 16
+02-19 16:34:50.266 23462 23462 I PlatformViewsController: Hosting view in a virtual display for platform view: 0
+02-19 16:34:50.267 23462 23462 I PlatformViewsController: PlatformView is using SurfaceProducer backend
+02-19 16:34:50.268   770  1644 D DisplayManagerService: Virtual Display: creating DisplayDevice with VirtualDisplayAdapter
+02-19 16:34:50.268   618   629 D SurfaceFlinger: Creating virtual display: flutter-vd#0
+02-19 16:34:50.269   770  1644 I DisplayDeviceRepository: Display device added: DisplayDeviceInfo{"flutter-vd#0": uniqueId="virtual:com.planet.flutter_plugin2_example,10225,flutter-vd#0,10", 1080 x 1828, modeId 12, renderFrameRate 60.0, hasArrSupport false, frameRateCategoryRate null, supportedRefreshRates [], defaultModeId 12, userPreferredModeId -1, supportedModes [{id=12, parentModeId=-1, flags=, width=1080, height=1828, fps=60.0, vsync=60.0, alternativeRefreshRates=[], supportedHdrTypes=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities null, isForceSdr false, allmSupported false, gameContentTypeSupported false, density 420, 420.0 x 420.0 dpi, appVsyncOff 0, presDeadline 16666666, touch NONE, rotation 0, type VIRTUAL, deviceProductInfo null, state ON, committedState UNKNOWN, owner com.planet.flutter_plugin2_example (uid 10225), frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.0, brightnessDim -1.0, hdrSdrRatio NaN, FLAG_PRIVATE, FLAG_NEVER_BLANK, FLAG_OWN_CONTENT_ONLY, installOrientation 0, displayShape DisplayShape{ spec=475645367 displayWidth=1080 displayHeight=1828 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+02-19 16:34:50.270   770  1644 I LogicalDisplayMapper: Applying layout: [default_layout: [{dispId: 0(ON), displayGroupName: , addr: {port=0, model=0x401cec6a7a2b7b}, mThermalBrightnessThrottlingMapId: null, mRefreshRateZoneId: null, mLeadDisplayId: -1, mLeadDisplayAddress: null, mThermalRefreshRateThrottlingMapId: null, mPowerThrottlingMapId: null}]], Previous layout: [default_layout: [{dispId: 0(ON), displayGroupName: , addr: {port=0, model=0x401cec6a7a2b7b}, mThermalBrightnessThrottlingMapId: null, mRefreshRateZoneId: null, mLeadDisplayId: -1, mLeadDisplayAddress: null, mThermalRefreshRateThrottlingMapId: null, mPowerThrottlingMapId: null}]]
+02-19 16:34:50.270   770  1644 I LogicalDisplayMapper: Setting new display group 0 for display 12, from previous group: null, for reason: 0, with flags: 0
+02-19 16:34:50.275   770  1644 W DisplayPowerController[12]: Screen brightness nits configuration is unavailable; falling back
+02-19 16:34:50.279   770   852 D BrightnessThermalClamper: Thermal status observer already started
+02-19 16:34:50.279   770   819 D BrightnessThermalClamper: New thermal throttling status = 0
+02-19 16:34:50.284   770   823 I DisplayDevice: [12] Layerstack set to 12 for virtual:com.planet.flutter_plugin2_example,10225,flutter-vd#0,10
+02-19 16:34:50.299   770   820 W WindowManager: attachWindowContextToDisplayContent: trying to attach to a non-existing display:12
+02-19 16:34:50.320   770   820 D InsetsController: Setting requestedVisibleTypes to 240 (was 503)
+02-19 16:34:50.325   770   852 D BrightnessThermalClamper: Thermal status observer already started
+02-19 16:34:50.331   770   852 D BrightnessThermalClamper: Thermal status observer already started
+02-19 16:34:50.332   770   820 I WindowManager: Override config changes=20005df8 {0.0 ?mcc0mnc ?localeList ?layoutDir sw411dp w411dp h696dp 420dpi nrml long compactNeeded port ?uimode ?night finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1080, 1828) mAppBounds=Rect(0, 0 - 1080, 1828) mMaxBounds=Rect(0, 0 - 1080, 1828) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} ?fontWeightAdjustment} for displayId=12
+02-19 16:34:50.338  1050  1097 W DisplayController: Skipping Display Configuration change on non-added display.
+02-19 16:34:50.348   770   770 W WindowTokenClientController: Can't find attached WindowTokenClient for android.window.WindowTokenClient@9cb5613
+02-19 16:34:50.360   770   822 E ModeChangeObserver: Changed display not found
+02-19 16:34:50.363   770   820 D WindowManager: DeferredDisplayUpdater: applying DisplayInfo(1080 x 1828) immediately
+02-19 16:34:50.364   770   820 D WindowManager: Remove SleepToken: tag=Display-off, displayId=12
+02-19 16:34:50.364   770   820 D WindowManager: Remove non-existent sleep token: Display-off from com.android.server.wm.DisplayContent.onDisplayInfoUpdated:6195 com.android.server.wm.DeferredDisplayUpdater.applyLatestDisplayInfo:267 com.android.server.wm.DeferredDisplayUpdater.updateDisplayInfo:162 com.android.server.wm.DisplayContent.requestDisplayUpdate:6178 com.android.server.wm.RootWindowContainer.onDisplayChanged:2902 android.hardware.display.DisplayManagerGlobal$DisplayListenerDelegate.handleDisplayEventInner:1642 
+02-19 16:34:50.365   770   820 V WindowManager: Content Recording: Display 12 state was (2), is now (2), so update recording?
+02-19 16:34:50.375 14657 14657 D TaskbarManager: onDisplayAddSystemDecorations:  displayId=12 isDefaultDisplay=false
+02-19 16:34:50.380 14657 14657 D TaskbarManager: Cannot get display! displayId=12 isDefaultDisplay=false
+02-19 16:34:50.380   618   618 E SurfaceFlinger: [flutter-vd#0] getUniqueId: Invalid operation on virtual display
+02-19 16:34:50.380   618   618 D SurfaceFlinger: processDisplayAdded: Optimizing thread scheduling: optimizeForPerformance
+02-19 16:34:50.380 14657 14657 D TaskbarManager: onDisplayAddSystemDecorations: can't find display! displayId=12 isDefaultDisplay=false
+02-19 16:34:50.386   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:50.425   770  1708 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 30
+02-19 16:34:50.425   770  1708 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 29
+02-19 16:34:50.425   770  1708 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+02-19 16:34:50.431 23462 23462 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda12@ee60ceb
+02-19 16:34:50.438   770   874 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+02-19 16:34:50.448   770  2219 D CoreBackPreview: Window{105ea03 u0 com.planet.flutter_plugin2_example}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@cf3235f, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+02-19 16:34:50.537 23462 24090 D [Live2D]: [CSM][W]CubismFramework.initialize() skipped, already initialized.
+02-19 16:34:50.908 23462 23462 D [Live2D]: setModelJsonPath: flutter_assets/packages/flutter_plugin2/assets/runtime/mao_pro.model3.json
+02-19 16:34:50.930 23462 24090 D [Live2D]: Loading model - dir: flutter_assets/packages/flutter_plugin2/assets/runtime/, file: mao_pro.model3.json
+02-19 16:34:50.930 23462 24090 D [Live2D]: load model setting: mao_pro.model3.json
+02-19 16:34:50.930 23462 24090 D [Live2D]: create buffer: flutter_assets/packages/flutter_plugin2/assets/runtime/mao_pro.model3.json
+02-19 16:34:50.945 23462 24090 D [Live2D]: create model: mao_pro.moc3
+02-19 16:34:50.945 23462 24090 D [Live2D]: create buffer: flutter_assets/packages/flutter_plugin2/assets/runtime/mao_pro.moc3
+02-19 16:34:50.971 23462 24090 D CubismCore: Live2D Cubism SDK Core Version 5.1.0
+02-19 16:34:51.002 23462 24090 D [Live2D]: create buffer: flutter_assets/packages/flutter_plugin2/assets/runtime/expressions/exp_01.exp3.json
+02-19 16:34:51.002 23462 24090 E [Live2D]: File open error: flutter_assets/packages/flutter_plugin2/assets/runtime/expressions/exp_01.exp3.json
+02-19 16:34:51.002 23462 24090 E [Live2D]: java.io.FileNotFoundException: flutter_assets/packages/flutter_plugin2/assets/runtime/expressions/exp_01.exp3.json
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at android.content.res.AssetManager.nativeOpenAsset(Native Method)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at android.content.res.AssetManager.open(AssetManager.java:1012)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at android.content.res.AssetManager.open(AssetManager.java:989)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.LAppPal.loadFileAsBytes(LAppPal.java:48)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.LAppModel.createBuffer(LAppModel.java:282)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.LAppModel.setupModel(LAppModel.java:311)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.LAppModel.loadAssets(LAppModel.java:59)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.LAppLive2DManager.loadModel(LAppLive2DManager.java:46)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.loadModelOnGLThread(Live2dView.java:240)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.lambda$onMethodCall$0(Live2dView.java:121)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.$r8$lambda$oUAEQHEd1uKd3F0i4pNHDTzLFgI(Unknown Source:0)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1502)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1272)
+02-19 16:34:51.002 23462 24090 E [Live2D]: Error loading model: flutter_assets/packages/flutter_plugin2/assets/runtime/mao_pro.model3.json
+02-19 16:34:51.002 23462 24090 E [Live2D]: java.lang.IllegalArgumentException: Parsed JSON data is empty.
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.live2d.sdk.cubism.framework.utils.jsonparser.CubismJson.create(CubismJson.java:29)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.live2d.sdk.cubism.framework.motion.CubismExpressionMotion.parse(CubismExpressionMotion.java:132)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.live2d.sdk.cubism.framework.motion.CubismExpressionMotion.create(CubismExpressionMotion.java:87)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.live2d.sdk.cubism.framework.model.CubismUserModel.loadExpression(CubismUserModel.java:349)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.LAppModel.setupModel(LAppModel.java:312)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.LAppModel.loadAssets(LAppModel.java:59)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.LAppLive2DManager.loadModel(LAppLive2DManager.java:46)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.loadModelOnGLThread(Live2dView.java:240)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.lambda$onMethodCall$0(Live2dView.java:121)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.$r8$lambda$oUAEQHEd1uKd3F0i4pNHDTzLFgI(Unknown Source:0)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1502)
+02-19 16:34:51.002 23462 24090 E [Live2D]: 	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1272)
+02-19 16:34:53.040   770  1644 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+02-19 16:34:53.048 23462 23462 E flutter : [ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method l2d_StartRandomMotion on channel plugins.felix.angelov/textview_0)
+02-19 16:34:53.048 23462 23462 E flutter : #0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:365:7)
+02-19 16:34:53.048 23462 23462 E flutter : <asynchronous suspension>
+02-19 16:34:53.048 23462 23462 E flutter : 
+02-19 16:34:53.068  8601  8616 D AudioFlinger: mixer(0x7b57d1e19790) throttle end: throttle time(30)
+02-19 16:34:53.191   770   925 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+02-19 16:34:53.194 23462 23462 E flutter : [ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method l2d_StartRandomMotion on channel plugins.felix.angelov/textview_0)
+02-19 16:34:53.194 23462 23462 E flutter : #0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:365:7)
+02-19 16:34:53.194 23462 23462 E flutter : <asynchronous suspension>
+02-19 16:34:53.194 23462 23462 E flutter : 
+02-19 16:34:53.396   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:53.446 23462 23462 E flutter : [ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method l2d_StartRandomMotion on channel plugins.felix.angelov/textview_0)
+02-19 16:34:53.446 23462 23462 E flutter : #0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:365:7)
+02-19 16:34:53.446 23462 23462 E flutter : <asynchronous suspension>
+02-19 16:34:53.446 23462 23462 E flutter : 
+02-19 16:34:53.451   770  1944 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+02-19 16:34:54.167   770  1644 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+02-19 16:34:54.379 23462 23504 W plugin2_example: Cleared Reference was only reachable from finalizer (only reported once)
+02-19 16:34:54.403   770  1944 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+02-19 16:34:54.972 14657 14657 D OtherActivityInputConsumer: ACTION_DOWN: mIsDeferredDownTarget=false
+02-19 16:34:54.995   770  1644 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+02-19 16:34:55.017 23462 23462 E flutter : [ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method l2d_StartRandomMotion on channel plugins.felix.angelov/textview_0)
+02-19 16:34:55.017 23462 23462 E flutter : #0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:365:7)
+02-19 16:34:55.017 23462 23462 E flutter : <asynchronous suspension>
+02-19 16:34:55.017 23462 23462 E flutter : 
+02-19 16:34:55.039 14657 14657 D ContextTracker: Registering callback: callback=com.android.launcher3.LauncherInitListener@fa621d4, context=com.google.android.apps.nexuslauncher.NexusLauncherActivity@5fc8b75, reason=OtherActivityInputConsumer.startTouchTrackingForWindowAnimation
+02-19 16:34:55.062 14657 14657 D RecentsView: onGestureAnimationStart - groupedTaskInfo: Desk ID= -1, Desk Display ID=-1, Tasks=[id=48 winMode=fullscreen visReq=true vis=true excluded=false baseIntent=com.planet.flutter_plugin2_example/.MainActivity], Type=FULLSCREEN, Minimized Task IDs=null
+02-19 16:34:55.063 14657 14657 D RecentsView: updateTaskStackListenerState: true
+02-19 16:34:55.063 14657 14657 D RecentsView: reloadIfNeeded - getTasks: -1
+02-19 16:34:55.064 14657 14679 D b/417220811: loadTasksInBackground - isDeviceLocked(0): false
+02-19 16:34:55.064 14657 14679 D b/417220811: getTasks - loadTasksInBackground: 45
+02-19 16:34:55.066 14657 14657 D RecentsView: showCurrentTask(onGestureAnimationStart) - groupedTaskInfo: Desk ID= -1, Desk Display ID=-1, Tasks=[id=48 winMode=fullscreen visReq=true vis=true excluded=false baseIntent=com.planet.flutter_plugin2_example/.MainActivity], Type=FULLSCREEN, Minimized Task IDs=null
+02-19 16:34:55.088 14657 14657 D TaskView: onBind com.google.android.apps.nexuslauncher.NexusLauncherActivity@5fc8b75 com.android.quickstep.LauncherActivityInterface@d7d0c50
+02-19 16:34:55.090 14657 14657 D TaskViewModel: bind com.android.quickstep.recents.ui.viewmodel.TaskViewModel@fbb2601 as SINGLE to taskIds: [48]
+02-19 16:34:55.169   770  1644 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+02-19 16:34:55.181 23462 23462 E flutter : [ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: MissingPluginException(No implementation found for method l2d_StartRandomMotion on channel plugins.felix.angelov/textview_0)
+02-19 16:34:55.181 23462 23462 E flutter : #0      MethodChannel._invokeMethod (package:flutter/src/services/platform_channel.dart:365:7)
+02-19 16:34:55.181 23462 23462 E flutter : <asynchronous suspension>
+02-19 16:34:55.181 23462 23462 E flutter : 
+02-19 16:34:55.200 14657 14657 D OverviewActionsView: updateForGroupedTask() called with: isGroupedTask = [false], canSaveAppPair = [false]
+02-19 16:34:55.200 14657 14657 D OverviewActionsView: updateActionButtonsVisibility() called: showSingleTaskActions = [true], showGroupActions = [false]
+02-19 16:34:55.204 14657 14657 D OtherActivityInputConsumer: startTouchTrackingForWindowAnimation: isRecentsAnimationRunning=false
+02-19 16:34:55.205 14657 14657 D TaskAnimationManager: startRecentsAnimation - running TaskAnimationMnaager count: 0
+02-19 16:34:55.210 14657 14657 D OtherActivityInputConsumer: ACTION_MOVE: passedSlop=false ( false || (8.994142 >= 881.73364 && true ))
+02-19 16:34:55.210 14657 14657 D OtherActivityInputConsumer: ACTION_MOVE: mPassedPilferInputSlop=false
+02-19 16:34:55.213 14657 14657 I NavHandleLongPressHandler: Contextual Search invocation: touch finished with reason: touch action up
+02-19 16:34:55.214 14657 14657 D OtherActivityInputConsumer: finishTouchTracking: mPassedWindowMoveSlop=false
+02-19 16:34:55.214 14657 14657 D OtherActivityInputConsumer: finishTouchTracking: mInteractionHandler=com.android.quickstep.LauncherSwipeHandlerV2@f97a6fb
+02-19 16:34:55.215 14657 14657 D OtherActivityInputConsumer: finishTouchTracking: ev=MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=796.94824, y[0]=2327.8564, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=40919909, downTime=40919821, deviceId=4, source=0x5002, displayId=0, eventId=818764467 }
+02-19 16:34:55.215 14657 14657 D OtherActivityInputConsumer: finishTouchTracking: mActiveCallbacks=com.android.quickstep.RecentsAnimationCallbacks@4589171
+02-19 16:34:55.217 14657 14657 D OtherActivityInputConsumer: finishTouchTracking: isRecentsAnimationRunning=false
+02-19 16:34:55.217 14657 14657 D ContextTracker: Unregistering callback: com.android.launcher3.LauncherInitListener@fa621d4, reason=AbsSwipeUpHandler.invalidateHandler
+02-19 16:34:55.217  1050  1097 V ShellRecents: startRecentsTransition
+02-19 16:34:55.223  1050  1097 V WindowManagerShell: PipDesktopState: Recents transition state changed: TRANSITION_STATE_REQUESTED
+02-19 16:34:55.223 14657 14657 D RecentsView: updateTaskStackListenerState: false
+02-19 16:34:55.223  1050  1097 V ShellRecents: RecentsTransitionHandler.startRealRecentsTransition(): displayId=0
+02-19 16:34:55.224  1050  1097 V WindowManagerShell:  handleRecentsRequest displayId=0 deskActive=false
+02-19 16:34:55.224 14657 14657 D OverviewActionsView: updateForGroupedTask() called with: isGroupedTask = [false], canSaveAppPair = [false]
+02-19 16:34:55.224 14657 14657 D OverviewActionsView: updateActionButtonsVisibility() called: showSingleTaskActions = [true], showGroupActions = [false]
+02-19 16:34:55.224 14657 14657 D OverviewActionsView: updateForGroupedTask() called with: isGroupedTask = [false], canSaveAppPair = [false]
+02-19 16:34:55.224 14657 14657 D OverviewActionsView: updateActionButtonsVisibility() called: showSingleTaskActions = [true], showGroupActions = [false]
+02-19 16:34:55.224 14657 14657 D RecentsView: onGestureAnimationEnd - mEnableDrawingLiveTile: false
+02-19 16:34:55.226  1050  1097 V WindowManagerShell: Directly starting a new transition type=START_RECENTS_TRANSITION(FIRST_CUSTOM+21) wct=WindowContainerTransaction { changes= {} hops= [{pendingIntent: options=Bundle[{android.activity.splashScreenStyle=-1, android.activity.sourceInfo=android.app.ActivityOptions$SourceInfo@1e4217e, android.pendingIntent.backgroundActivityAllowed=3, android.activity.launchDisplayId=0, android:activity.animAbortListener=null, android.activity.transientLaunch=true}]}] errorCallbackToken=null taskFragmentOrganizer=null } handler=com.android.wm.shell.recents.RecentsTransitionHandler@7be3310
+02-19 16:34:55.235 14657 14657 D LauncherStateManager: StateManager.goToState: fromState: Normal, toState: Normal, partial trace:
+02-19 16:34:55.235 14657 14657 D LauncherStateManager: 	at com.android.quickstep.BaseContainerInterface.onTransitionCancelled(go/retraceme 7101499b44b219b757f6885b35ae099b24fc769225595efcaaacae5b0f94500b:64)
+02-19 16:34:55.235 14657 14657 D LauncherStateManager: 	at com.android.quickstep.AbsSwipeUpHandler.resetStateForAnimationCancel(go/retraceme 7101499b44b219b757f6885b35ae099b24fc769225595efcaaacae5b0f94500b:22)
+02-19 16:34:55.235 14657 14657 D LauncherStateManager: 	at com.android.quickstep.AbsSwipeUpHandler.Z(go/retraceme 7101499b44b219b757f6885b35ae099b24fc769225595efcaaacae5b0f94500b:1)
+02-19 16:34:55.235 14657 14657 D LauncherStateManager: StateManager.onRepeatStateSetAborted: state: Normal
+02-19 16:34:55.236 14657 14657 D b/417220811: getTasks - updating mResultsUi: 45
+02-19 16:34:55.236 14657 14657 D b/417220811: getTasks - updating mResultsUi: 45
+02-19 16:34:55.236 14657 14657 D RecentsView: applyLoadPlan - taskGroups: [type=SINGLE task=[id=48 windowingMode=1 user=0 lastActiveTime=40693457] null], taskListChangeId: 45
+02-19 16:34:55.242 14657 14657 D TaskViewModel: unbind com.android.quickstep.recents.ui.viewmodel.TaskViewModel@fbb2601
+02-19 16:34:55.242 14657 14657 W BitmapDrawable: BitmapDrawable created with null Bitmap
+02-19 16:34:55.242 14657 14657 D TaskView: onBind com.google.android.apps.nexuslauncher.NexusLauncherActivity@5fc8b75 com.android.quickstep.LauncherActivityInterface@d7d0c50
+02-19 16:34:55.242 14657 14657 D TaskViewModel: bind com.android.quickstep.recents.ui.viewmodel.TaskViewModel@fbb2601 as SINGLE to taskIds: [48]
+02-19 16:34:55.247 14657 14657 D b/417220811: getTasks - updating mResultsUi: 45
+02-19 16:34:55.247 14657 14657 D TasksRepository: getAllTaskData: oldTasks [], newTasks: [48]
+02-19 16:34:55.282   770  1944 V WindowManager: deferTransitionReady deferReadyDepth=1 stack=com.android.server.wm.WindowOrganizerController.applyTransaction:658 com.android.server.wm.WindowOrganizerController.applyTransaction:636 com.android.server.wm.WindowOrganizerController.lambda$startTransition$3:377 com.android.server.wm.WindowOrganizerController.$r8$lambda$PHnU0rj5Bcvaq0dL-Wi7kOJt8bo:0 com.android.server.wm.WindowOrganizerController$$ExternalSyntheticLambda5.onCollectStarted:0 
+02-19 16:34:55.308   770  1944 V WindowManager: continueTransitionReady deferReadyDepth=0 stack=com.android.server.wm.WindowOrganizerController.applyTransaction:799 com.android.server.wm.WindowOrganizerController.applyTransaction:636 com.android.server.wm.WindowOrganizerController.lambda$startTransition$3:377 com.android.server.wm.WindowOrganizerController.$r8$lambda$PHnU0rj5Bcvaq0dL-Wi7kOJt8bo:0 com.android.server.wm.WindowOrganizerController$$ExternalSyntheticLambda5.onCollectStarted:0 
+02-19 16:34:55.310   770  1944 V WindowManager: Defer transition id=103 for TaskFragmentTransaction=android.os.Binder@e481f57
+02-19 16:34:55.315   770  1944 V WindowManager: deferTransitionReady deferReadyDepth=1 stack=com.android.server.wm.TransitionController.deferTransitionReady:1061 com.android.server.wm.TaskFragmentOrganizerController$TaskFragmentOrganizerState.dispatchTransaction:517 com.android.server.wm.TaskFragmentOrganizerController.dispatchPendingEvents:1259 com.android.server.wm.TaskFragmentOrganizerController.dispatchPendingEvents:1228 com.android.server.wm.RootWindowContainer.performSurfacePlacement:777 
+02-19 16:34:55.318  1050  1097 V ShellRecents: [72326956] RecentsController.setTransition: id=android.os.BinderProxy@5cad6df
+02-19 16:34:55.334 14657 14657 D b/417220811: Task id: 48, thumbnailData: null, isLocked: false
+02-19 16:34:55.335 14657 14657 D TaskThumbnailView: [TaskThumbnailView@2f4dd30] taskId: 48 - uiState changed from: Uninitialized to: BackgroundOnly(backgroundColor=-16777216)
+02-19 16:34:55.337   770  1004 D BackgroundInstallControlService: Package event received: 0
+02-19 16:34:55.342 14657 14657 D ViewRootImpl: Skipping stats log for color mode
+02-19 16:34:55.345 14657 14657 D BaseActivity: Launcher flags updated: [state_started] +[state_started]
+02-19 16:34:55.347 14657 14657 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_user_active] +[state_resumed|state_user_active]
+02-19 16:34:55.359   770  1004 D BackgroundInstallControlService: Package event received: 0
+02-19 16:34:55.364 14657 14657 D b/417220811: invalidateLoadedTasks - previous requestLoadId: 45
+02-19 16:34:55.370  1050  1097 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=true, height=495
+02-19 16:34:55.370   618   740 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for descriptor: '(not cached)'
+02-19 16:34:55.371 14657 14657 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+02-19 16:34:55.403   770  1712 V WindowManager: Continue transition id=103 for TaskFragmentTransaction=android.os.Binder@e481f57
+02-19 16:34:55.403   770  1712 V WindowManager: continueTransitionReady deferReadyDepth=0 stack=com.android.server.wm.TransitionController.continueTransitionReady:1071 com.android.server.wm.TaskFragmentOrganizerController$TaskFragmentOrganizerState.onTransactionFinished:546 com.android.server.wm.TaskFragmentOrganizerController.onTransactionHandled:740 android.window.ITaskFragmentOrganizerController$Stub.onTransact:225 android.os.Binder.execTransactInternal:1473 
+02-19 16:34:55.421 14657 14657 D BaseDepthController: setSurface:
+02-19 16:34:55.421 14657 14657 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+02-19 16:34:55.421 14657 14657 D BaseDepthController: 	mBaseSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1014)/@0x847c029
+02-19 16:34:55.421 14657 14657 V BaseDepthController: Applying blur: 0 to Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1014)/@0x847c029 applyImmediately: false
+02-19 16:34:55.423 14657 14657 D BaseDepthController: shouldBlurWorkspace: false targetState: Normal currentStableState: Normal mCurrentBlur: 0 mLauncher.getDepthBlurTargets(): [com.android.launcher3.Workspace{d1e82c6 V.ED..... ......ID 0,0-1080,2400 #7f0a049d app:id/workspace}, com.android.launcher3.Hotseat{cfa3287 V.ED..... ......ID 0,1905-1080,2400 #7f0a01ee app:id/hotseat}]
+02-19 16:34:55.434  1050  1362 D WallpaperService: onVisibilityChanged(true): com.android.systemui.wallpapers.ImageWallpaper$CanvasEngine@dc11bbd
+02-19 16:34:55.532 14657 14657 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed|state_user_active] +[state_deferred_resumed]
+02-19 16:34:55.533 14657 14657 D StatsLog: LAUNCHER_ONRESUME
+02-19 16:34:55.562 14657 14681 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[-1,-1]/[1,1]
+02-19 16:34:55.579   770   819 V WindowManager: Sent Transition (#103) createdAt=02-19 16:34:55.261
+02-19 16:34:55.579   770   819 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [{pendingIntent: options=Bundle[{android.activity.splashScreenStyle=-1, android.activity.sourceInfo=android.app.ActivityOptions$SourceInfo@3f37bc8, android.pendingIntent.backgroundActivityAllowed=3, android.activity.launchDisplayId=0, android:activity.animAbortListener=null, android.activity.transientLaunch=true}]}] errorCallbackToken=null taskFragmentOrganizer=null }
+02-19 16:34:55.583   770   819 V WindowManager:     info={id=103 t=FIRST_CUSTOM+21 f=0x80 trk=0 r=[0@Point(0, 0)] c=[
+02-19 16:34:55.583   770   819 V WindowManager:         {WCT{RemoteToken{aca889c Task{cd40864 #1 type=home}}} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1#44)/@0xbc60fa7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},
+02-19 16:34:55.583   770   819 V WindowManager:         {WCT{RemoteToken{98f1b72 Task{3a06823 #48 type=standard A=10225:com.planet.flutter_plugin2_example}}} m=TO_BACK f=NONE leash=Surface(name=Task=48#941)/@0x2a276e6 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},
+02-19 16:34:55.583   770   819 V WindowManager:         {m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{96b1dac}#61)/@0x3124517 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}
+02-19 16:34:55.583   770   819 V WindowManager:     ]}
+02-19 16:34:55.589  1050  1097 D Bubbles : onLocusVisibilityChanged=Overview|DISABLED visible=true taskId=1
+02-19 16:34:55.608  1615  1821 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+02-19 16:34:55.609  1615  1821 I AiAiEcho: EchoTargets: 
+02-19 16:34:55.609  1615  1821 I AiAiEcho: Filtered by AiAi flag check: 
+02-19 16:34:55.609  1615  1821 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+02-19 16:34:55.616  1615  1821 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+02-19 16:34:55.623  1050 12970 V WindowManagerShell: onTransitionReady(transaction=3307124836675)
+02-19 16:34:55.625  1050  1097 V WindowManagerShell: onTransitionReady (#103) android.os.BinderProxy@5cad6df: {id=103 t=FIRST_CUSTOM+21 f=0x80 trk=0 r=[0@Point(0, 0)] c=[
+02-19 16:34:55.625  1050  1097 V WindowManagerShell:         {m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1#44)/@0x6e5df5 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},
+02-19 16:34:55.625  1050  1097 V WindowManagerShell:         {m=TO_BACK f=NONE leash=Surface(name=Task=48#941)/@0x1cd78a sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},
+02-19 16:34:55.625  1050  1097 V WindowManagerShell:         {m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{96b1dac}#61)/@0x4b001fb sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}
+02-19 16:34:55.625  1050  1097 V WindowManagerShell:     ]}
+02-19 16:34:55.626  1050  1097 V WindowManagerShell: Playing animation for (#103) android.os.BinderProxy@5cad6df@0
+02-19 16:34:55.626  1050  1097 V WindowManagerShell:  try firstHandler com.android.wm.shell.recents.RecentsTransitionHandler@7be3310
+02-19 16:34:55.626  1050  1097 V ShellRecents: [72326956] RecentsController.start
+02-19 16:34:55.636  1050  1097 V ShellRecents:   not handling home taskId=1
+02-19 16:34:55.636  1050  1097 V ShellRecents:   adding pausing leaf taskId=48 at layer=8
+02-19 16:34:55.637  1050  1097 V ShellRecents: Applying transaction=3307124836675
+02-19 16:34:55.640  1050  1097 V ShellRecents: No matching remote found to takeover (#103)
+02-19 16:34:55.640  1050  1097 V ShellSplitScreen: getSplitBoundsForTaskId: expected split bounds for taskId=48 but not found
+02-19 16:34:55.640  1050  1097 V ShellRecents: [72326956] RecentsController.start: calling onAnimationStart with 2 apps
+02-19 16:34:55.641  1050  1097 V WindowManagerShell: PipDesktopState: Recents transition state changed: TRANSITION_STATE_ANIMATING
+02-19 16:34:55.648  1050  1097 V WindowManagerShell:  animated by firstHandler
+02-19 16:34:55.649 14657 14657 D OtherActivityInputConsumer: FinishImmediatelyHandler: queuing callback
+02-19 16:34:55.649 14657 14657 D OtherActivityInputConsumer: FinishImmediatelyHandler: running callback
+02-19 16:34:55.655  1050  1097 V ShellRecents: [72326956] RecentsController.finishInner: toHome=false userLeave=false willFinishToHome=false state=0 hasPausingTasks=true reason=requested
+02-19 16:34:55.655  1050  1097 V ShellRecents:   returning to app
+02-19 16:34:55.655  1050  1097 V ShellRecents:   reorder task#48 to top
+02-19 16:34:55.655  1050  1097 V ShellRecents: [72326956] RecentsController.finishInner: Queuing TRANSIT_END_RECENTS_TRANSITION
+02-19 16:34:55.656  1050  1097 V WindowManagerShell: Directly starting a new transition type=END_RECENTS_TRANSITION(FIRST_CUSTOM+22) wct=WindowContainerTransaction { changes= {} hops= [{reorder: android.os.BinderProxy@c862cc2 to top}, {restoreTransientOrder: container=android.os.BinderProxy@193aed2 reparent=null mToTop=false mWindowingMode=null mActivityType=null}] errorCallbackToken=null taskFragmentOrganizer=null } handler=com.android.wm.shell.recents.RecentsTransitionHandler$RecentsController$PendingFinishTransitionHandler@404a7c4
+02-19 16:34:55.663  1615  1821 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+02-19 16:34:55.668   770  1644 V WindowManager: deferTransitionReady deferReadyDepth=1 stack=com.android.server.wm.WindowOrganizerController.applyTransaction:658 com.android.server.wm.WindowOrganizerController.applyTransaction:636 com.android.server.wm.WindowOrganizerController.lambda$startTransition$3:377 com.android.server.wm.WindowOrganizerController.$r8$lambda$PHnU0rj5Bcvaq0dL-Wi7kOJt8bo:0 com.android.server.wm.WindowOrganizerController$$ExternalSyntheticLambda5.onCollectStarted:0 
+02-19 16:34:55.677   770  1644 V WindowManager: continueTransitionReady deferReadyDepth=0 stack=com.android.server.wm.WindowOrganizerController.applyTransaction:799 com.android.server.wm.WindowOrganizerController.applyTransaction:636 com.android.server.wm.WindowOrganizerController.lambda$startTransition$3:377 com.android.server.wm.WindowOrganizerController.$r8$lambda$PHnU0rj5Bcvaq0dL-Wi7kOJt8bo:0 com.android.server.wm.WindowOrganizerController$$ExternalSyntheticLambda5.onCollectStarted:0 
+02-19 16:34:55.681   770  1644 V WindowManager: Defer transition id=104 for TaskFragmentTransaction=android.os.Binder@312d461
+02-19 16:34:55.681   770  1644 V WindowManager: deferTransitionReady deferReadyDepth=1 stack=com.android.server.wm.TransitionController.deferTransitionReady:1061 com.android.server.wm.TaskFragmentOrganizerController$TaskFragmentOrganizerState.dispatchTransaction:517 com.android.server.wm.TaskFragmentOrganizerController.dispatchPendingEvents:1259 com.android.server.wm.TaskFragmentOrganizerController.dispatchPendingEvents:1228 com.android.server.wm.RootWindowContainer.performSurfacePlacement:777 
+02-19 16:34:55.693 14657 14657 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+02-19 16:34:55.699   770  1712 V WindowManager: Continue transition id=104 for TaskFragmentTransaction=android.os.Binder@312d461
+02-19 16:34:55.699   770  1712 V WindowManager: continueTransitionReady deferReadyDepth=0 stack=com.android.server.wm.TransitionController.continueTransitionReady:1071 com.android.server.wm.TaskFragmentOrganizerController$TaskFragmentOrganizerState.onTransactionFinished:546 com.android.server.wm.TaskFragmentOrganizerController.onTransactionHandled:740 android.window.ITaskFragmentOrganizerController$Stub.onTransact:225 android.os.Binder.execTransactInternal:1473 
+02-19 16:34:55.711   770   819 V WindowManager: Sent Transition (#104) createdAt=02-19 16:34:55.668
+02-19 16:34:55.712   770   819 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [{reorder: RemoteToken{98f1b72 Task{3a06823 #48 type=standard A=10225:com.planet.flutter_plugin2_example}} to top}, {restoreTransientOrder: container=RemoteToken{aca889c Task{cd40864 #1 type=home}} reparent=null mToTop=false mWindowingMode=null mActivityType=null}] errorCallbackToken=null taskFragmentOrganizer=null }
+02-19 16:34:55.712   770   819 V WindowManager:     info={id=104 t=FIRST_CUSTOM+22 f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+02-19 16:34:55.712   770   819 V WindowManager:         {WCT{RemoteToken{98f1b72 Task{3a06823 #48 type=standard A=10225:com.planet.flutter_plugin2_example}}} m=CHANGE f=MOVE_TO_TOP leash=Surface(name=Task=48#941)/@0x2a276e6 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},
+02-19 16:34:55.712   770   819 V WindowManager:         {WCT{RemoteToken{aca889c Task{cd40864 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1#44)/@0xbc60fa7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},
+02-19 16:34:55.712   770   819 V WindowManager:         {m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{96b1dac}#61)/@0x3124517 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}
+02-19 16:34:55.712   770   819 V WindowManager:     ]}
+02-19 16:34:55.717 14657 14657 D SsBaseTemplateCard: Passed-in item info is null
+02-19 16:34:55.717 14657 14657 D SsBaseTemplateCard: Passed-in item info is null
+02-19 16:34:55.717 14657 14657 D SsBaseTemplateCard: Passed-in item info is null
+02-19 16:34:55.718 14657 14657 D SsBaseTemplateCard: Passed-in item info is null
+02-19 16:34:55.718 14657 14657 I SsBaseTemplateCard: Secondary card pane is null
+02-19 16:34:55.749  1050  1426 V WindowManagerShell: onTransitionReady(transaction=3307124836751)
+02-19 16:34:55.749  1050  1097 V WindowManagerShell: onTransitionReady (#104) android.os.BinderProxy@6b156ad: {id=104 t=FIRST_CUSTOM+22 f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+02-19 16:34:55.749  1050  1097 V WindowManagerShell:         {m=CHANGE f=MOVE_TO_TOP leash=Surface(name=Task=48#941)/@0x8b8cde2 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},
+02-19 16:34:55.749  1050  1097 V WindowManagerShell:         {m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1#44)/@0x436b573 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},
+02-19 16:34:55.749  1050  1097 V WindowManagerShell:         {m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{96b1dac}#61)/@0x867c30 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}
+02-19 16:34:55.749  1050  1097 V WindowManagerShell:     ]}
+02-19 16:34:55.750  1050  1097 V WindowManagerShell: Transition (#104) android.os.BinderProxy@6b156ad@0 ready while (#103) android.os.BinderProxy@5cad6df@0 is still animating. Notify the animating transition in case they can be merged
+02-19 16:34:55.750  1050  1097 V ShellRecents: [72326956] RecentsController.merge: TRANSIT_END_RECENTS_TRANSITION
+02-19 16:34:55.750  1050  1097 V ShellRecents: [72326956] RecentsController.merge: consuming merge
+02-19 16:34:55.752  1050  1097 V WindowManagerShell: Transition was merged: (#104) android.os.BinderProxy@6b156ad@0 into (#103) android.os.BinderProxy@5cad6df@0
+02-19 16:34:55.752  1050  1097 V ShellRecents: [72326956] PendingFinishTransitionHandler.onTransitionConsumed: Consumed pending finish transition
+02-19 16:34:55.752  1050  1097 V ShellRecents: [72326956] RecentsController.finishInner: Completing finish
+02-19 16:34:55.752  1050  1097 V ShellRecents: [72326956] RecentsController.cleanup
+02-19 16:34:55.752  1050  1097 V WindowManagerShell: PipDesktopState: Recents transition state changed: TRANSITION_STATE_NOT_RUNNING
+02-19 16:34:55.755  1050  1097 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#103) android.os.BinderProxy@5cad6df@0
+02-19 16:34:55.761   770   819 V WindowManager: Finish Transition (#103): created at 02-19 16:34:55.261 collect-started=7.122ms started=8.805ms ready=141.578ms sent=309.329ms commit=87.766ms finished=498.375ms
+02-19 16:34:55.767  1050  1362 D WallpaperService: onVisibilityChanged(false): com.android.systemui.wallpapers.ImageWallpaper$CanvasEngine@dc11bbd
+02-19 16:34:55.768 14657 14657 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+02-19 16:34:55.770   770   819 V WindowManager: Finish Transition (#104): created at 02-19 16:34:55.668 collect-started=0.092ms started=0.157ms ready=33.98ms sent=39.39ms finished=101.399ms
+02-19 16:34:55.779 14657 14657 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+02-19 16:34:55.780  1050  1097 V WindowManagerShell: Track 0 became idle
+02-19 16:34:55.782  1050  1097 V WindowManagerShell: All active transition animations finished
+02-19 16:34:55.782  1050  1097 V ShellRecents: [72326956] RecentsController.finishInner: calling finish callback
+02-19 16:34:55.782  1050  1097 V WindowManagerShell: Track 0 became idle
+02-19 16:34:55.782  1050  1097 V WindowManagerShell: All active transition animations finished
+02-19 16:34:55.787  1050  1097 D Bubbles : onLocusVisibilityChanged=Overview|DISABLED visible=false taskId=1
+02-19 16:34:55.814 14657 14657 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed] -[state_user_active]
+02-19 16:34:55.815 14657 14657 D BaseActivity: Launcher flags updated: [state_started] -[state_resumed|state_deferred_resumed]
+02-19 16:34:55.815 14657 14657 W SplitSelectStateCtor: Missing session instanceIds
+02-19 16:34:55.815 14657 14657 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+02-19 16:34:55.824  1050  1097 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=495
+02-19 16:34:55.829   770  1004 D BackgroundInstallControlService: Package event received: 0
+02-19 16:34:55.845 14657 14657 D BaseActivity: Launcher flags updated: [] -[state_started]
+02-19 16:34:55.846 14657 14657 D BaseDepthController: setSurface:
+02-19 16:34:55.846 14657 14657 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+02-19 16:34:55.846 14657 14657 D BaseDepthController: 	mBaseSurface: null
+02-19 16:34:55.846 14657 14657 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+02-19 16:34:55.856 14657 14657 D LauncherStateManager: StateManager.goToState: fromState: Normal, toState: Normal, partial trace:
+02-19 16:34:55.856 14657 14657 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 7101499b44b219b757f6885b35ae099b24fc769225595efcaaacae5b0f94500b:6)
+02-19 16:34:55.856 14657 14657 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 7101499b44b219b757f6885b35ae099b24fc769225595efcaaacae5b0f94500b:2)
+02-19 16:34:55.856 14657 14657 D LauncherStateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 7101499b44b219b757f6885b35ae099b24fc769225595efcaaacae5b0f94500b:32)
+02-19 16:34:55.856 14657 14657 D LauncherStateManager: StateManager.onRepeatStateSetAborted: state: Normal
+02-19 16:34:55.857 14657 14657 D ActivityContext: hideKeyboard
+02-19 16:34:55.858 14657 14657 D ActivityContext: isImeShown: false
+02-19 16:34:55.858 14657 14657 D StatsLog: LAUNCHER_ONSTOP
+02-19 16:34:55.861 14657 14657 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+02-19 16:34:55.866   770  1004 D BackgroundInstallControlService: Package event received: 0
+02-19 16:34:55.932 14657 14657 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+02-19 16:34:55.970 14657 14664 W System  : A resource failed to call release. 
+02-19 16:34:55.970 14657 14664 W System  : A resource failed to call release. 
+02-19 16:34:55.970 14657 14664 W System  : A resource failed to call release. 
+02-19 16:34:55.970 14657 14664 W System  : A resource failed to call release. 
+02-19 16:34:56.245  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:34:56.249  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:34:56.419   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:34:57.909  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:34:58.277  8602  9066 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 2958272
+02-19 16:34:58.277  8602  9066 D android.hardware.audio@7.1-impl.ranchu: ~TinyalsaSink: joining consumeThread
+02-19 16:34:58.297  8602 24094 D android.hardware.audio@7.1-impl.ranchu: consumeThread: exiting
+02-19 16:34:58.305  8602  9066 D android.hardware.audio@7.1-impl.ranchu: ~TinyalsaSink: stopping PCM stream
+02-19 16:34:58.503  1050  1050 I ClipboardListener: Clipboard overlay suppressed.
+02-19 16:34:58.526  1615  1885 I AiAiTranslate: C2T - not in a conversation
+02-19 16:34:58.694   770  1682 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+02-19 16:34:58.892  1615  1885 I AiAiTranslate: C2T - not in a conversation
+02-19 16:34:58.904  1050  1050 I ClipboardListener: Clipboard overlay suppressed.
+02-19 16:34:59.451   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:02.470   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:05.489   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:06.103  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:35:06.235  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:35:06.237  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:35:08.507   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:11.520   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:11.862  1615  1885 I AiAiTranslate: C2T - not in a conversation
+02-19 16:35:11.866  1050  1050 I ClipboardListener: Clipboard overlay suppressed.
+02-19 16:35:12.174  1615  1885 I AiAiTranslate: C2T - not in a conversation
+02-19 16:35:12.186  1050  1050 I ClipboardListener: Clipboard overlay suppressed.
+02-19 16:35:13.193  1615  1885 I AiAiTranslate: C2T - not in a conversation
+02-19 16:35:13.218  1615  1885 I AiAiTranslate: C2T - not in a conversation
+02-19 16:35:13.220  1050  1050 I ClipboardListener: Clipboard overlay suppressed.
+02-19 16:35:13.238  1050  1050 I ClipboardListener: Clipboard overlay suppressed.
+02-19 16:35:14.038  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:35:14.404  1615  1885 I AiAiTranslate: C2T - not in a conversation
+02-19 16:35:14.423  1050  1050 I ClipboardListener: Clipboard overlay suppressed.
+02-19 16:35:14.541   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:16.236  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:35:16.239  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:35:17.555   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:20.564   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:21.974  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:35:23.576   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:26.235  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:35:26.235  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:35:26.588   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:29.602   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:29.909  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:35:32.618   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:35.628   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:36.235  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:35:36.239  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:35:38.106  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:35:38.649   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:41.662   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:44.673   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:46.037  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:35:46.248  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:35:46.249  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:35:47.684   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:50.695   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:50.976   770   940 D NetworkStatsObservers: Registering observer for RequestInfo from pid/uid:770/1000(android) for DataUsageRequest [ requestId=49, networkTemplate=NetworkTemplate: matchRule=MOBILE, matchSubscriberIds=[310260...], matchWifiNetworkKeys=[], metered=YES, defaultNetwork=NO, thresholdInBytes=4359528 ] accessLevel:3
+02-19 16:35:50.976   770  1048 D NetworkStatsObservers: Unregistering RequestInfo from pid/uid:770/1000(android) for DataUsageRequest [ requestId=48, networkTemplate=NetworkTemplate: matchRule=MOBILE, matchSubscriberIds=[310260...], matchWifiNetworkKeys=[], metered=YES, defaultNetwork=NO, thresholdInBytes=4359721 ] accessLevel:3
+02-19 16:35:53.705   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:53.973  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:35:56.240  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:35:56.242  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:35:56.716   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:35:59.726   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:01.910  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:36:02.738   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:05.757   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:06.240  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:36:06.245  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:36:08.766   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:10.101  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:36:10.668   770  1645 D WifiNl80211Manager: Scan result ready event
+02-19 16:36:10.669   770  1645 D WifiNative: Scan result ready event
+02-19 16:36:10.687 20135 20166 I WifiScanner: onFullResults
+02-19 16:36:10.692 20135 20246 I WifiScanner: onFullResults
+02-19 16:36:10.704   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:11.780   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:14.787   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:16.242  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:36:16.245  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:36:17.794   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:18.038  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:36:20.807   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:23.821   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:25.975  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:36:26.244  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:36:26.245  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:36:26.837   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:29.878   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:30.447 23462 23504 I plugin2_example: Background young concurrent mark compact GC freed 2124KB AllocSpace bytes, 0(0B) LOS objects, 30% free, 4651KB/6703KB, paused 2.510ms,9.323ms total 54.598ms
+02-19 16:36:32.888   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:33.910  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:36:35.559   770   841 D AppOpHistoryHelper: MetricHandler reporting 6 records.
+02-19 16:36:35.902   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:36.243  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:36:36.243  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+02-19 16:36:38.915   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:41.936   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:42.101  1037  1037 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+02-19 16:36:44.946   770   944 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+02-19 16:36:46.243  1198  1347 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+02-19 16:36:46.244  1198  1347 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0

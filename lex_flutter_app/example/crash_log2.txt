@@ -1,0 +1,86 @@
+﻿--------- beginning of main
+02-20 14:27:33.904   618   618 E libbinder.IPCThreadState: Binder transaction failure. id: 11796663, cmd: BR_FROZEN_REPLY (29202), error: 0 (Success)
+02-20 14:27:33.904   618   618 E SurfaceFlinger: ANativeWindow::dequeueBuffer failed for display [flutter-vd#0] with error: -2147483646
+02-20 14:27:33.925   618   618 E libbinder.IPCThreadState: Binder transaction failure. id: 11796672, cmd: BR_FROZEN_REPLY (29202), error: 0 (Success)
+02-20 14:27:33.925   618   618 E SurfaceFlinger: ANativeWindow::dequeueBuffer failed for display [flutter-vd#0] with error: -2147483646
+02-20 14:27:34.037   618   618 E libbinder.IPCThreadState: Binder transaction failure. id: 11796773, cmd: BR_DEAD_REPLY (29189), error: -3 (No such process)
+02-20 14:27:34.038   618   618 E SurfaceFlinger: ANativeWindow::dequeueBuffer failed for display [flutter-vd#0] with error: -32
+02-20 14:27:34.038   770   906 E InputDispatcher: channel '901aed9 com.planet.flutter_plugin2_example' ~ Channel is unrecoverably broken and will be disposed!
+02-20 14:27:34.104   618   618 E Surface : [LegacyVirtualDisplaySurface](id:0) Surface failed to disconnect. Cleaning up internals anyway. Error -32 (DEAD_OBJECT).
+--------- beginning of system
+02-20 14:27:34.145   770   822 E ModeChangeObserver: Removed display not found
+02-20 14:27:34.171   770   820 E WindowManager: DisplayContent already removed or removing.
+02-20 14:27:34.284   618   618 E BpTransactionCompletedListener: Failed to transact (-32)
+02-20 14:27:34.284   618   618 E BpTransactionCompletedListener: Failed to transact (-32)
+02-20 14:27:35.642   770  1943 E libbinder.IPCThreadState: Binder transaction failure. id: 11797922, cmd: BR_DEAD_REPLY (29189), error: -22 (Invalid argument)
+02-20 14:27:35.797   618   618 E BpTransactionCompletedListener: Failed to transact (-32)
+02-20 14:27:35.797   618   618 E BpTransactionCompletedListener: Failed to transact (-32)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: No service published for: persistent_data_block
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: android.os.ServiceManager$ServiceNotFoundException: No service published for: persistent_data_block
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at android.os.ServiceManager.getServiceOrThrow(ServiceManager.java:203)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry$86.createService(SystemServiceRegistry.java:1201)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry$86.createService(SystemServiceRegistry.java:1198)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry$StaticServiceFetcher.getService(SystemServiceRegistry.java:2610)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at android.app.SystemServiceRegistry.getSystemService(SystemServiceRegistry.java:2063)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at android.app.ContextImpl.getSystemService(ContextImpl.java:2434)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at android.content.Context.getSystemService(Context.java:4901)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at com.android.server.pm.PackageInstallerSession.markAsSealed(PackageInstallerSession.java:2573)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at com.android.server.pm.PackageInstallerSession.commit(PackageInstallerSession.java:2323)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at android.content.pm.PackageInstaller$Session.commit(PackageInstaller.java:2343)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerShellCommand.doCommitSession(PackageManagerShellCommand.java:4390)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerShellCommand.doRunInstall(PackageManagerShellCommand.java:1651)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerShellCommand.runInstall(PackageManagerShellCommand.java:1572)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:246)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at android.os.ShellCommand.exec(ShellCommand.java:38)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onShellCommand(PackageManagerService.java:6721)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at android.os.Binder.shellCommand(Binder.java:1183)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at android.os.Binder.onTransact(Binder.java:961)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:4666)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onTransact(PackageManagerService.java:6705)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at android.os.Binder.execTransactInternal(Binder.java:1478)
+02-20 14:27:36.267   770  1645 E SystemServiceRegistry: 	at android.os.Binder.execTransact(Binder.java:1418)
+02-20 14:27:36.273   770  1645 E SystemServiceRegistry: Manager wrapper not available: persistent_data_block
+02-20 14:27:37.596   770   959 E AppOps  : attributionTag VCN not declared in manifest of android
+02-20 14:27:37.596  1198  1347 E SatelliteAppTracker: packageName: com.planet.flutter_plugin2_example, value: null
+02-20 14:27:37.645  1198  1347 E SatelliteAppTracker: packageName: com.planet.flutter_plugin2_example, value: null
+02-20 14:27:37.699  1198  1198 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+02-20 14:27:38.607   770  1943 E AppOps  : attributionTag VCN not declared in manifest of android
+02-20 14:27:39.557  1198  1198 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+02-20 14:27:39.674  1198  1198 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+02-20 14:27:40.220   770  4799 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION, user: 0
+02-20 14:27:41.132   770  4799 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.SYSTEM_DEPENDENCY_INSTALLER, user: 0
+02-20 14:27:41.437   770  4799 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.WALLET, user: 0
+02-20 14:27:41.505   770  1682 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+02-20 14:27:41.778 31806 31806 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package android.xr cannot be found on the device
+02-20 14:27:41.930 31806 31806 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+02-20 14:27:42.049 31868 31868 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+02-20 14:27:55.874   618   618 E SurfaceFlinger: [flutter-vd#0] getUniqueId: Invalid operation on virtual display
+02-20 14:27:55.890   770   822 E ModeChangeObserver: Changed display not found
+02-20 14:27:56.595 31868 31930 E [Live2D]: File open error: flutter_assets/packages/flutter_plugin2/assets/model/march 7th.model3.json
+02-20 14:27:56.595 31868 31930 E [Live2D]: java.io.FileNotFoundException: flutter_assets/packages/flutter_plugin2/assets/model/march 7th.model3.json
+02-20 14:27:56.595 31868 31930 E [Live2D]: 	at android.content.res.AssetManager.nativeOpenAsset(Native Method)
+02-20 14:27:56.595 31868 31930 E [Live2D]: 	at android.content.res.AssetManager.open(AssetManager.java:1012)
+02-20 14:27:56.595 31868 31930 E [Live2D]: 	at android.content.res.AssetManager.open(AssetManager.java:989)
+02-20 14:27:56.595 31868 31930 E [Live2D]: 	at com.planet.flutter_plugin2.LAppPal.loadFileAsBytes(LAppPal.java:48)
+02-20 14:27:56.595 31868 31930 E [Live2D]: 	at com.planet.flutter_plugin2.LAppModel.createBuffer(LAppModel.java:282)
+02-20 14:27:56.595 31868 31930 E [Live2D]: 	at com.planet.flutter_plugin2.LAppModel.loadAssets(LAppModel.java:55)
+02-20 14:27:56.595 31868 31930 E [Live2D]: 	at com.planet.flutter_plugin2.LAppLive2DManager.loadModel(LAppLive2DManager.java:46)
+02-20 14:27:56.595 31868 31930 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.loadModelOnGLThread(Live2dView.java:240)
+02-20 14:27:56.595 31868 31930 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.lambda$onMethodCall$0(Live2dView.java:121)
+02-20 14:27:56.595 31868 31930 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.$r8$lambda$oUAEQHEd1uKd3F0i4pNHDTzLFgI(Unknown Source:0)
+02-20 14:27:56.595 31868 31930 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+02-20 14:27:56.595 31868 31930 E [Live2D]: 	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1502)
+02-20 14:27:56.595 31868 31930 E [Live2D]: 	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1272)
+02-20 14:27:56.629 31868 31930 E [Live2D]: Error loading model: flutter_assets/packages/flutter_plugin2/assets/model/march 7th.model3.json
+02-20 14:27:56.629 31868 31930 E [Live2D]: java.lang.IllegalArgumentException: Parsed JSON data is empty.
+02-20 14:27:56.629 31868 31930 E [Live2D]: 	at com.live2d.sdk.cubism.framework.utils.jsonparser.CubismJson.create(CubismJson.java:29)
+02-20 14:27:56.629 31868 31930 E [Live2D]: 	at com.live2d.sdk.cubism.framework.CubismModelSettingJson.<init>(CubismModelSettingJson.java:26)
+02-20 14:27:56.629 31868 31930 E [Live2D]: 	at com.planet.flutter_plugin2.LAppModel.loadAssets(LAppModel.java:57)
+02-20 14:27:56.629 31868 31930 E [Live2D]: 	at com.planet.flutter_plugin2.LAppLive2DManager.loadModel(LAppLive2DManager.java:46)
+02-20 14:27:56.629 31868 31930 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.loadModelOnGLThread(Live2dView.java:240)
+02-20 14:27:56.629 31868 31930 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.lambda$onMethodCall$0(Live2dView.java:121)
+02-20 14:27:56.629 31868 31930 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView.$r8$lambda$oUAEQHEd1uKd3F0i4pNHDTzLFgI(Unknown Source:0)
+02-20 14:27:56.629 31868 31930 E [Live2D]: 	at com.planet.flutter_plugin2.Live2dView$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+02-20 14:27:56.629 31868 31930 E [Live2D]: 	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1502)
+02-20 14:27:56.629 31868 31930 E [Live2D]: 	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1272)

@@ -1,0 +1,69 @@
+﻿Running Gradle task 'assembleDebug'...                          
+flutter : 
+At line:1 char:88
++ ... _live2d_plugin-
+main\example" ; 
+flutter build apk 
+--debug 2>&1 | Out-F 
+...
++                    
+                ~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (:String   
+ ) [], RemoteExce    
+ption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+FAILURE: Build 
+failed with an 
+exception.
+
+* What went wrong:
+Execution failed for 
+task ':app:checkDebug
+AarMetadata'.
+> Could not resolve 
+all files for 
+configuration ':app:d
+ebugRuntimeClasspath'
+.
+   > Could not find 
+:Live2DCubismCore:.
+     Searched in the 
+following locations:
+       - file:/D:/Pro
+jects/anime/flutter_l
+ive2d_plugin-main/flu
+tter_live2d_plugin-ma
+in/example/android/ap
+p/libs/Live2DCubismCo
+re.aar
+     Required by:
+         project 
+:app > project 
+:flutter_plugin2
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to 
+get more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at ht
+tps://help.gradle.org
+.
+
+BUILD FAILED in 1s
+Running Gradle task 'assembleDebug'...                           2,831ms
+Gradle task 
+assembleDebug failed 
+with exit code 1

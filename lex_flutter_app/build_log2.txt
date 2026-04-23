@@ -1,0 +1,1559 @@
+﻿Running Gradle task 'assembleDebug'...                          
+flutter : D:\Projects
+\anime\flutter_live2d
+_plugin-main\flutter_
+live2d_plugin-main\an
+droid\src\main\java\c
+om\live2d\sdk\cubism\
+framework\rendering\c
+smBlendMode.java:10: 
+error: cannot find 
+symbol
+At line:1 char:88
++ ... _live2d_plugin-
+main\example" ; 
+flutter build apk 
+--debug 2>&1 | Out-F 
+...
++                    
+                ~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (D:\Proj   
+ ects\ani...not f    
+ind symbol:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+import com.live2d.sdk
+.cubism.core.CubismAl
+phaBlendType;
+                     
+            ^
+  symbol:   class 
+CubismAlphaBlendType
+  location: package c
+om.live2d.sdk.cubism.
+core
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:11: error: 
+cannot find symbol
+import com.live2d.sdk
+.cubism.core.CubismCo
+lorBlendType;
+                     
+            ^
+  symbol:   class 
+CubismColorBlendType
+  location: package c
+om.live2d.sdk.cubism.
+core
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:42: error: 
+cannot find symbol
+    public void setBl
+endMode(CubismColorBl
+endType 
+colorBlendType, 
+CubismAlphaBlendType 
+alphaBlendType) {
+                     
+        ^
+  symbol:   class 
+CubismColorBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:42: error: 
+cannot find symbol
+    public void setBl
+endMode(CubismColorBl
+endType 
+colorBlendType, 
+CubismAlphaBlendType 
+alphaBlendType) {
+                     
+                     
+                     
+   ^
+  symbol:   class 
+CubismAlphaBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:52: error: 
+cannot find symbol
+    public 
+CubismColorBlendType 
+getColorBlendType() {
+           ^
+  symbol:   class 
+CubismColorBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:61: error: 
+cannot find symbol
+    public 
+CubismAlphaBlendType 
+getAlphaBlendType() {
+           ^
+  symbol:   class 
+CubismAlphaBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:85: error: 
+cannot find symbol
+    private static 
+final CubismColorBlen
+dType[] CACHED_COLOR_
+BLEND_TYPES = CubismC
+olorBlendType.values(
+);
+                     
+    ^
+  symbol:   class 
+CubismColorBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:86: error: 
+cannot find symbol
+    private static 
+final CubismAlphaBlen
+dType[] CACHED_ALPHA_
+BLEND_TYPES = CubismA
+lphaBlendType.values(
+);
+                     
+    ^
+  symbol:   class 
+CubismAlphaBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:94: error: 
+cannot find symbol
+    private static 
+CubismColorBlendType 
+intToColorBlendType(i
+nt value) {
+                   ^
+  symbol:   class 
+CubismColorBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:112: error: 
+cannot find symbol
+    private static 
+CubismAlphaBlendType 
+intToAlphaBlendType(i
+nt value) {
+                   ^
+  symbol:   class 
+CubismAlphaBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\android\sha
+derindex\CubismShader
+IndexFactors.java:10:
+ error: cannot find 
+symbol
+import com.live2d.sdk
+.cubism.core.CubismAl
+phaBlendType;
+                     
+            ^
+  symbol:   class 
+CubismAlphaBlendType
+  location: package c
+om.live2d.sdk.cubism.
+core
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\android\sha
+derindex\CubismShader
+IndexFactors.java:11:
+ error: cannot find 
+symbol
+import com.live2d.sdk
+.cubism.core.CubismCo
+lorBlendType;
+                     
+            ^
+  symbol:   class 
+CubismColorBlendType
+  location: package c
+om.live2d.sdk.cubism.
+core
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\android\sha
+derindex\CubismShader
+IndexCalculator.java:
+10: error: cannot 
+find symbol
+import com.live2d.sdk
+.cubism.core.CubismAl
+phaBlendType;
+                     
+            ^
+  symbol:   class 
+CubismAlphaBlendType
+  location: package c
+om.live2d.sdk.cubism.
+core
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\android\sha
+derindex\CubismShader
+IndexCalculator.java:
+11: error: cannot 
+find symbol
+import com.live2d.sdk
+.cubism.core.CubismCo
+lorBlendType;
+                     
+            ^
+  symbol:   class 
+CubismColorBlendType
+  location: package c
+om.live2d.sdk.cubism.
+core
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\android\sha
+derindex\CubismShader
+IndexConstants.java:1
+0: error: cannot 
+find symbol
+import com.live2d.sdk
+.cubism.core.CubismAl
+phaBlendType;
+                     
+            ^
+  symbol:   class 
+CubismAlphaBlendType
+  location: package c
+om.live2d.sdk.cubism.
+core
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\android\sha
+derindex\CubismShader
+IndexConstants.java:1
+1: error: cannot 
+find symbol
+import com.live2d.sdk
+.cubism.core.CubismCo
+lorBlendType;
+                     
+            ^
+  symbol:   class 
+CubismColorBlendType
+  location: package c
+om.live2d.sdk.cubism.
+core
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:146: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public static 
+class 
+DrawableColorData {
+                  ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:194: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public static 
+class PartColorData {
+                  ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:242: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public static 
+class 
+DrawableCullingData {
+                  ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:516: error: cannot 
+find symbol
+        final int[] 
+renderOrders = model.
+getRenderOrders();
+                     
+                   ^
+  symbol:   method 
+getRenderOrders()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:588: error: cannot 
+find symbol
+        final int[] o
+ffscreenSourcesIndice
+s = model.getParts().
+getOffscreenIndices()
+;
+                     
+                     
+                    ^
+  symbol:   method 
+getOffscreenIndices()
+  location: class 
+CubismParts
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:713: error: cannot 
+find symbol
+                int 
+offscreenIndex = mode
+l.getParts().getOffsc
+reenIndices()[objects
+.get(i).objectIndex];
+                     
+                     
+           ^
+  symbol:   method 
+getOffscreenIndices()
+  location: class 
+CubismParts
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1302: error: 
+cannot find symbol
+            model.get
+DrawableViews()[drawa
+bleIndex].getBlendMod
+e()
+                     
+                     
+         ^
+  symbol:   method 
+getBlendMode()
+  location: class 
+CubismDrawableView
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1447: error: 
+cannot find symbol
+        final int[] 
+blendModes = model.ge
+tOffscreenRendering()
+.getBlendModes();
+                     
+                 ^
+  symbol:   method ge
+tOffscreenRendering()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1461: error: 
+cannot find symbol
+        final int 
+offscreenCount = mode
+l.getOffscreenRenderi
+ng().getCount();
+                     
+                   ^
+  symbol:   method ge
+tOffscreenRendering()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1471: error: 
+cannot find symbol
+        final 
+int[][] masks = model
+.getOffscreenRenderin
+g().getMasks();
+                     
+              ^
+  symbol:   method ge
+tOffscreenRendering()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1481: error: 
+cannot find symbol
+        final int[] 
+maskCounts = model.ge
+tOffscreenRendering()
+.getMaskCounts();
+                     
+                 ^
+  symbol:   method ge
+tOffscreenRendering()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1491: error: 
+cannot find symbol
+        final int[] 
+ownerIndices = model.
+getOffscreenRendering
+().getOwnerIndices();
+                     
+                   ^
+  symbol:   method ge
+tOffscreenRendering()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1502: error: 
+cannot find symbol
+        final int 
+ownerIndex = model.ge
+tOffscreenRendering()
+.getOwnerIndices()[of
+fscreenIndex];
+                     
+               ^
+  symbol:   method ge
+tOffscreenRendering()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1513: error: 
+cannot find symbol
+        final 
+float[][] 
+offscreenColors = mod
+el.getOffscreenRender
+ing().getMultiplyColo
+rs();
+                     
+                     
+     ^
+  symbol:   method ge
+tOffscreenRendering()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1524: error: 
+cannot find symbol
+        final 
+float[][] 
+offscreenColors = mod
+el.getOffscreenRender
+ing().getScreenColors
+();
+                     
+                     
+     ^
+  symbol:   method ge
+tOffscreenRendering()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1537: error: 
+cannot find symbol
+        final byte[] 
+constantFlags = model
+.getOffscreenRenderin
+g().getConstantFlags(
+);
+                     
+                     
+^
+  symbol:   method ge
+tOffscreenRendering()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1548: error: 
+cannot find symbol
+        if 
+(offscreenIndex < 0 
+|| offscreenIndex >= 
+model.getOffscreenRen
+dering().getCount()) 
+{
+                     
+                     
+               ^
+  symbol:   method ge
+tOffscreenRendering()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1552: error: 
+cannot find symbol
+        return model.
+getOffscreenRendering
+().getOpacities()[off
+screenIndex];
+                    ^
+  symbol:   method ge
+tOffscreenRendering()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1589: error: 
+cannot find symbol
+        int 
+offscreenCount = mode
+l.getOffscreenRenderi
+ng().getCount();
+                     
+             ^
+  symbol:   method ge
+tOffscreenRendering()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1590: error: 
+cannot find symbol
+        int[] 
+offscreenMaskCounts 
+= model.getOffscreenR
+endering().getMaskCou
+nts();
+                     
+                    ^
+  symbol:   method ge
+tOffscreenRendering()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1958: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public boolean ge
+tOverwriteFlagForMode
+lMultiplyColors() {
+                   ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:1979: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public boolean ge
+tOverwriteFlagForMode
+lScreenColors() {
+                   ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2000: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public void setOv
+erwriteFlagForModelMu
+ltiplyColors(boolean 
+value) {
+                ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2021: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public void setOv
+erwriteFlagForModelSc
+reenColors(boolean 
+value) {
+                ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2042: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public boolean ge
+tOverwriteFlagForDraw
+ableMultiplyColors(in
+t drawableIndex) {
+                   ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2063: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public boolean ge
+tOverwriteFlagForDraw
+ableScreenColors(int 
+drawableIndex) {
+                   ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2085: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public boolean ge
+tOverwriteColorForPar
+tMultiplyColors(int 
+partIndex) {
+                   ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2108: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public boolean ge
+tOverwriteColorForPar
+tScreenColors(int 
+partIndex) {
+                   ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2130: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public void setOv
+erwriteFlagForDrawabl
+eMultiplyColors(int 
+drawableIndex, 
+boolean value) {
+                ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2151: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public void setOv
+erwriteFlagForDrawabl
+eScreenColors(int 
+drawableIndex, 
+boolean value) {
+                ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2173: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public void setOv
+erwriteColorForPartMu
+ltiplyColors(int 
+partIndex, boolean 
+value) {
+                ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2197: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public void setOv
+erwriteColorForPartSc
+reenColors(int 
+partIndex, boolean 
+value) {
+                ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2291: error: 
+cannot find symbol
+        final byte[] 
+constantFlags = model
+.getOffscreenRenderin
+g().getConstantFlags(
+);
+                     
+                     
+^
+  symbol:   method ge
+tOffscreenRendering()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2362: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public boolean ge
+tOverwriteFlagForMode
+lCullings() {
+                   ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2383: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public void setOv
+erwriteFlagForModelCu
+llings(boolean 
+value) {
+                ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2405: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public boolean ge
+tOverwriteFlagForDraw
+ableCullings(int 
+drawableIndex) {
+                   ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2428: warning: 
+[dep-ann] deprecated 
+item is not 
+annotated with 
+@Deprecated
+    public void setOv
+erwriteFlagForDrawabl
+eCullings(int 
+drawableIndex, 
+boolean value) {
+                ^
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2617: error: 
+cannot find symbol
+        if (model.get
+OffscreenRenderingVie
+ws().length > 0) {
+                 ^
+  symbol:   method ge
+tOffscreenRenderingVi
+ews()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2621: error: 
+cannot find symbol
+            final 
+int[] blendModes = mo
+del.getDrawables().ge
+tBlendModes();
+                     
+                     
+               ^
+  symbol:   method 
+getBlendModes()
+  location: class 
+CubismDrawables
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2625: error: 
+cannot find symbol
+                
+final 
+CubismColorBlendType 
+colorBlendType = blen
+dMode.getColorBlendTy
+pe();
+                     
+ ^
+  symbol:   class 
+CubismColorBlendType
+  location: class 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2626: error: 
+cannot find symbol
+                
+final 
+CubismAlphaBlendType 
+alphaBlendType = blen
+dMode.getAlphaBlendTy
+pe();
+                     
+ ^
+  symbol:   class 
+CubismAlphaBlendType
+  location: class 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2629: error: 
+cannot find symbol
+                if 
+(!(colorBlendType == 
+CubismColorBlendType.
+NORMAL && 
+alphaBlendType == Cub
+ismAlphaBlendType.OVE
+R) &&
+                     
+                   ^
+  symbol:   variable 
+CubismColorBlendType
+  location: class 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2629: error: 
+cannot find symbol
+                if 
+(!(colorBlendType == 
+CubismColorBlendType.
+NORMAL && 
+alphaBlendType == Cub
+ismAlphaBlendType.OVE
+R) &&
+                     
+                     
+                     
+                     
+     ^
+  symbol:   variable 
+CubismAlphaBlendType
+  location: class 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2630: error: 
+cannot find symbol
+                    
+colorBlendType != Cub
+ismColorBlendType.ADD
+_COMPATIBLE &&
+                     
+                 ^
+  symbol:   variable 
+CubismColorBlendType
+  location: class 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2631: error: 
+cannot find symbol
+                    
+colorBlendType != Cub
+ismColorBlendType.MUL
+TIPLY_COMPATIBLE) {
+                     
+                 ^
+  symbol:   variable 
+CubismColorBlendType
+  location: class 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+model\CubismModel.jav
+a:2665: error: 
+cannot find symbol
+        final int 
+offscreenCount = mode
+l.getOffscreenRenderi
+ng().getCount();
+                     
+                   ^
+  symbol:   method ge
+tOffscreenRendering()
+  location: variable 
+model of type 
+CubismModel
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:71: error: 
+cannot find symbol
+        
+CubismColorBlendType 
+colorBlendType = 
+getColorBlendType();
+        ^
+  symbol:   class 
+CubismColorBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:72: error: 
+cannot find symbol
+        
+CubismAlphaBlendType 
+alphaBlendType = 
+getAlphaBlendType();
+        ^
+  symbol:   class 
+CubismAlphaBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:74: error: 
+cannot find symbol
+        boolean 
+isNormalOver = 
+colorBlendType == Cub
+ismColorBlendType.NOR
+MAL
+                     
+                     
+       ^
+  symbol:   variable 
+CubismColorBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:75: error: 
+cannot find symbol
+                     
+          && 
+alphaBlendType == Cub
+ismAlphaBlendType.OVE
+R;
+                     
+                     
+          ^
+  symbol:   variable 
+CubismAlphaBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:76: error: 
+cannot find symbol
+        boolean 
+isCompatible = 
+colorBlendType == Cub
+ismColorBlendType.ADD
+_COMPATIBLE
+                     
+                     
+       ^
+  symbol:   variable 
+CubismColorBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:77: error: 
+cannot find symbol
+                     
+          || 
+colorBlendType == Cub
+ismColorBlendType.MUL
+TIPLY_COMPATIBLE;
+                     
+                     
+          ^
+  symbol:   variable 
+CubismColorBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:85: error: 
+cannot find symbol
+    private static 
+final CubismColorBlen
+dType[] CACHED_COLOR_
+BLEND_TYPES = CubismC
+olorBlendType.values(
+);
+                     
+                     
+                     
+            ^
+  symbol:   variable 
+CubismColorBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:86: error: 
+cannot find symbol
+    private static 
+final CubismAlphaBlen
+dType[] CACHED_ALPHA_
+BLEND_TYPES = CubismA
+lphaBlendType.values(
+);
+                     
+                     
+                     
+            ^
+  symbol:   variable 
+CubismAlphaBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:96: error: 
+cannot find symbol
+            
+CubismColorBlendType 
+type = CACHED_COLOR_B
+LEND_TYPES[i];
+            ^
+  symbol:   class 
+CubismColorBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:103: error: 
+cannot find symbol
+        return Cubism
+ColorBlendType.NORMAL
+;
+               ^
+  symbol:   variable 
+CubismColorBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:114: error: 
+cannot find symbol
+            
+CubismAlphaBlendType 
+type = CACHED_ALPHA_B
+LEND_TYPES[i];
+            ^
+  symbol:   class 
+CubismAlphaBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\csmBlendMod
+e.java:121: error: 
+cannot find symbol
+        return Cubism
+AlphaBlendType.OVER;
+               ^
+  symbol:   variable 
+CubismAlphaBlendType
+  location: class 
+csmBlendMode
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\android\sha
+derindex\CubismShader
+IndexCalculator.java:
+37: error: cannot 
+find symbol
+        
+CubismColorBlendType 
+colorType = blendMode
+.getColorBlendType();
+        ^
+  symbol:   class 
+CubismColorBlendType
+  location: class Cub
+ismShaderIndexCalcula
+tor
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\android\sha
+derindex\CubismShader
+IndexCalculator.java:
+38: error: cannot 
+find symbol
+        
+CubismAlphaBlendType 
+alphaType = blendMode
+.getAlphaBlendType();
+        ^
+  symbol:   class 
+CubismAlphaBlendType
+  location: class Cub
+ismShaderIndexCalcula
+tor
+D:\Projects\anime\flu
+tter_live2d_plugin-ma
+in\flutter_live2d_plu
+gin-main\android\src\
+main\java\com\live2d\
+sdk\cubism\framework\
+rendering\android\sha
+derindex\CubismShader
+IndexCalculator.java:
+46: error: cannot 
+find symbol
+            if 
+(colorType == CubismC
+olorBlendType.NORMAL)
+ {
+                     
+        ^
+  symbol:   variable 
+CubismColorBlendType
+  location: class Cub
+ismShaderIndexCalcula
+tor
+Note: Some input 
+files use unchecked 
+or unsafe operations.
+Note: Recompile with 
+-Xlint:unchecked for 
+details.
+58 errors
+19 warnings
+
+FAILURE: Build 
+failed with an 
+exception.
+
+* What went wrong:
+Execution failed for 
+task ':flutter_plugin
+2:compileDebugJavaWit
+hJavac'.
+> Compilation 
+failed; see the 
+compiler error 
+output for details.
+
+* Try:
+> Run with --info 
+option to get more 
+log output.
+> Run with --scan to 
+get full insights.
+
+BUILD FAILED in 6s
+Running Gradle task 'assembleDebug'...                              7.7s
+Gradle task 
+assembleDebug failed 
+with exit code 1
