@@ -1,4 +1,5 @@
 import os
+import time
 from datetime import timedelta
 import logging
 import json as _json
@@ -7,7 +8,7 @@ from typing import List, Optional
 import requests
 
 from dotenv import load_dotenv
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from livekit import api
@@ -86,7 +87,7 @@ app.add_middleware(
 )
 
 
-_SERVER_START_TIME: float = 0.0
+_SERVER_START_TIME: float = time.time()
 
 
 @app.get("/health")
@@ -95,14 +96,15 @@ def health() -> dict[str, str]:
 
 
 @app.get("/network/info")
-def network_info() -> dict[str, object]:
+def network_info(request: Request) -> dict[str, object]:
     """Diagnostic endpoint — useful for verifying connectivity from the app."""
-    import time
-
     port = int(os.getenv("TOKEN_SERVER_PORT", "8080"))
     host = os.getenv("TOKEN_SERVER_HOST", "0.0.0.0")
     livekit_url = os.getenv("LIVEKIT_URL", "(not set)")
     uptime = round(time.time() - _SERVER_START_TIME, 1) if _SERVER_START_TIME else 0
+    # Detect actual protocol from reverse-proxy header (Render, Railway, etc.)
+    forwarded_proto = request.headers.get("x-forwarded-proto", "").strip().lower()
+    protocol = forwarded_proto if forwarded_proto in ("http", "https") else "http"
     return {
         "status": "ok",
         "host": host,
@@ -111,7 +113,7 @@ def network_info() -> dict[str, object]:
         "agent_name": AGENT_NAME,
         "uptime_seconds": uptime,
         "standard_port": 8080,
-        "protocol": "http",
+        "protocol": protocol,
     }
 
 
@@ -778,10 +780,7 @@ async def chat_stream(payload: ChatRequest):
 # ─────────────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    import time
     import uvicorn
-
-    _SERVER_START_TIME = time.time()
 
     port = int(os.getenv("TOKEN_SERVER_PORT", "8080"))
     host = os.getenv("TOKEN_SERVER_HOST", "0.0.0.0")

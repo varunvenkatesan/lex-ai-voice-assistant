@@ -924,8 +924,12 @@ class _LexHomePageState extends State<LexHomePage>
   Future<void> _initNetworkConfig() async {
     try {
       await NetworkConfig.instance.initialize();
+      // Remove any stale local/LAN URLs that would override the deployed
+      // cloud URL — this is the primary fix for "Cannot reach server" after
+      // deploying to Render.
+      await NetworkConfig.instance.clearStaleLocalOverrides();
       if (!mounted) return;
-      // Refresh controllers with any persisted user overrides.
+      // Refresh controllers with the (now cleaned) URLs.
       final savedServer = NetworkConfig.instance.tokenServerUrl;
       final savedLiveKit = NetworkConfig.instance.liveKitUrl;
       if (_serverController.text != savedServer) {
@@ -982,18 +986,26 @@ class _LexHomePageState extends State<LexHomePage>
       }
 
       // ── Step 2: Pre-connection health check ──
-      debugPrint('[LEX] Health check: $serverBase/health');
-      setState(() => _status = 'Checking server...');
+      // Cloud servers (Render free tier) may need up to 30s to wake from
+      // cold start, so we allow more retries for HTTPS endpoints.
+      final isCloudUrl = serverBase.startsWith('https://');
+      final healthRetries = isCloudUrl ? 3 : 1;
+      debugPrint('[LEX] Health check: $serverBase/health (retries=$healthRetries)');
+      setState(() => _status = isCloudUrl
+          ? 'Waking up server (may take a moment)...'
+          : 'Checking server...');
       final reachable = await NetworkConfig.instance
-          .isServerReachableWithRetry(serverBase, retries: 1);
+          .isServerReachableWithRetry(serverBase, retries: healthRetries);
       if (!reachable) {
         setState(() {
           _status = 'Server unreachable';
           _lastError = NetworkConfig.unreachableHint(serverBase);
         });
         _showErrorSnackbar(
-          'Cannot reach server. Check that it is running and you are '
-          'on the correct network.',
+          isCloudUrl
+              ? 'Server is still starting up. Please wait a moment and try again.'
+              : 'Cannot reach server. Check that it is running and you are '
+                'on the correct network.',
         );
         return;
       }

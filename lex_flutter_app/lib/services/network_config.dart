@@ -36,7 +36,7 @@ class NetworkConfig {
   //   2. Pass it at build time: flutter run --dart-define=TOKEN_SERVER_URL=https://your-server.onrender.com
   static const String _deployedServerUrl = String.fromEnvironment(
     'DEPLOYED_SERVER_URL',
-    defaultValue: '', // ← Set your deployed URL here after deploying
+    defaultValue: 'https://lex-ai-voice-assistant.onrender.com', // Render cloud deployment
   );
 
   // ─── Preference keys ───
@@ -54,8 +54,15 @@ class NetworkConfig {
   );
 
   // ─── Timeouts ───
+  /// Health-check timeout for local (http) servers.
   static const Duration healthCheckTimeout = Duration(seconds: 5);
-  static const Duration tokenRequestTimeout = Duration(seconds: 12);
+
+  /// Health-check timeout for cloud (https) servers.
+  /// Render free-tier cold starts can take 30–50 seconds; we allow up to 20s
+  /// so the first health check has a good chance of succeeding after spin-up.
+  static const Duration cloudHealthCheckTimeout = Duration(seconds: 20);
+
+  static const Duration tokenRequestTimeout = Duration(seconds: 15);
 
   // ─── Retry settings ───
   static const int maxRetries = 3;
@@ -87,15 +94,26 @@ class NetworkConfig {
   /// The token-server base URL (no trailing slash).
   ///
   /// Resolution order:
-  ///   1. User-persisted override (from SharedPreferences)
+  ///   1. User-persisted override (from SharedPreferences) — **only if it is
+  ///      NOT a stale local/LAN URL when a cloud deployment is available**
   ///   2. Compile-time `TOKEN_SERVER_URL` (from --dart-define)
   ///   3. Deployed cloud URL (if configured)
   ///   4. Platform-aware local default (emulator / localhost)
   String get tokenServerUrl {
-    // 1. Persisted user override
+    // 1. Persisted user override — skip stale local URLs when cloud is available
     final saved = _prefs?.getString(_prefTokenServerUrl);
     if (saved != null && saved.trim().isNotEmpty) {
-      return normalizeBaseUrl(saved.trim());
+      final normalized = normalizeBaseUrl(saved.trim());
+      // If we have a deployed cloud URL and the saved URL is a local/LAN
+      // address, ignore the stale override — the user moved to cloud.
+      if (hasDeployedUrl && _isLocalOrLanUrl(normalized)) {
+        debugPrint(
+          '[NetworkConfig] Ignoring stale local override ($normalized) '
+          '— using deployed cloud URL instead.',
+        );
+      } else {
+        return normalized;
+      }
     }
     // 2. Compile-time override
     if (_envTokenServerUrl.isNotEmpty) {
@@ -130,22 +148,42 @@ class NetworkConfig {
 
   /// Try the deployed URL first; if unreachable, fall back to local.
   /// Returns the first reachable server URL, or the deployed URL if both fail.
+  ///
+  /// Unlike [tokenServerUrl], this method always **verifies** reachability
+  /// before returning — even for persisted overrides.
   Future<String> resolveServerUrl() async {
-    // If user has a persisted override, use that directly.
-    final saved = _prefs?.getString(_prefTokenServerUrl);
-    if (saved != null && saved.trim().isNotEmpty) {
-      return normalizeBaseUrl(saved.trim());
-    }
-
-    // If compile-time override is set, use that directly.
+    // If compile-time override is set, use that directly (trusted).
     if (_envTokenServerUrl.isNotEmpty) {
       return normalizeBaseUrl(_envTokenServerUrl);
     }
 
-    // Try deployed URL first (works on ANY network).
+    // If user has a persisted non-local override, verify it first.
+    final saved = _prefs?.getString(_prefTokenServerUrl);
+    if (saved != null && saved.trim().isNotEmpty) {
+      final normalized = normalizeBaseUrl(saved.trim());
+      // If it's a stale local/LAN URL and we have cloud, skip it.
+      if (hasDeployedUrl && _isLocalOrLanUrl(normalized)) {
+        debugPrint(
+          '[NetworkConfig] Skipping stale local saved URL ($normalized) '
+          '— will try deployed cloud URL.',
+        );
+      } else {
+        // It's a cloud URL or no deployed URL exists — verify it.
+        if (await isServerReachable(normalized)) {
+          return normalized;
+        }
+        debugPrint(
+          '[NetworkConfig] Saved URL ($normalized) unreachable, '
+          'trying alternatives...',
+        );
+      }
+    }
+
+    // Try deployed URL (works on ANY network).
     if (_deployedServerUrl.isNotEmpty) {
-      if (await isServerReachable(_deployedServerUrl.trim())) {
-        return _deployedServerUrl.trim();
+      final deployed = _deployedServerUrl.trim();
+      if (await isServerReachable(deployed)) {
+        return deployed;
       }
       debugPrint('[NetworkConfig] Deployed URL unreachable, trying local...');
     }
@@ -186,17 +224,49 @@ class NetworkConfig {
     await _prefs?.remove(_prefLiveKitUrl);
   }
 
+  /// If a deployed cloud URL is configured, remove any persisted local/LAN
+  /// server URLs that are no longer reachable from external networks.
+  ///
+  /// Call this during app initialization to prevent stale local IPs from
+  /// overriding the cloud deployment after the user moves to a new network.
+  Future<void> clearStaleLocalOverrides() async {
+    if (!hasDeployedUrl) return;
+    await initialize();
+
+    final saved = _prefs?.getString(_prefTokenServerUrl);
+    if (saved == null || saved.trim().isEmpty) return;
+
+    if (_isLocalOrLanUrl(saved.trim())) {
+      debugPrint(
+        '[NetworkConfig] Clearing stale local server URL override: $saved',
+      );
+      await _prefs?.remove(_prefTokenServerUrl);
+    }
+  }
+
   // ═══════════════════════════════════════════════════════════════════════════
   // Health check
   // ═══════════════════════════════════════════════════════════════════════════
 
+  /// Returns the appropriate health-check timeout for [baseUrl].
+  /// Cloud (HTTPS) URLs get a longer timeout to account for cold starts.
+  static Duration healthTimeoutFor(String baseUrl) {
+    final uri = Uri.tryParse(baseUrl);
+    if (uri != null && uri.scheme == 'https') {
+      return cloudHealthCheckTimeout;
+    }
+    return healthCheckTimeout;
+  }
+
   /// Returns `true` if the token server at [baseUrl] is reachable.
   Future<bool> isServerReachable(String baseUrl) async {
-    final url = '${normalizeBaseUrl(baseUrl)}/health';
+    final normalized = normalizeBaseUrl(baseUrl);
+    final url = '$normalized/health';
+    final timeout = healthTimeoutFor(normalized);
     try {
       final response = await http
           .get(Uri.parse(url))
-          .timeout(healthCheckTimeout);
+          .timeout(timeout);
       return response.statusCode == 200;
     } catch (_) {
       return false;
@@ -308,6 +378,28 @@ class NetworkConfig {
     return host == '10.0.2.2' || host == '10.0.3.2';
   }
 
+  /// Returns `true` if [url] points to a local or LAN-only address.
+  ///
+  /// Matches localhost, 127.x.x.x, 10.x.x.x, 192.168.x.x, 172.16–31.x.x,
+  /// and any URL using the `http` scheme with a raw IPv4 host.
+  static bool _isLocalOrLanUrl(String url) {
+    final uri = Uri.tryParse(url);
+    if (uri == null) return false;
+    final host = uri.host.toLowerCase();
+    if (host == 'localhost' || host == '127.0.0.1') return true;
+    if (host.startsWith('10.')) return true; // 10.x.x.x (emulator + LAN)
+    if (host.startsWith('192.168.')) return true; // 192.168.x.x (LAN)
+    // 172.16.0.0 – 172.31.255.255
+    if (host.startsWith('172.')) {
+      final parts = host.split('.');
+      if (parts.length >= 2) {
+        final second = int.tryParse(parts[1]);
+        if (second != null && second >= 16 && second <= 31) return true;
+      }
+    }
+    return false;
+  }
+
   // ═══════════════════════════════════════════════════════════════════════════
   // Diagnostics
   // ═══════════════════════════════════════════════════════════════════════════
@@ -315,8 +407,9 @@ class NetworkConfig {
   /// Human-readable connection hint for the current platform.
   static String platformConnectionHint() {
     if (hasDeployedUrl) {
-      return 'The app will connect to the deployed cloud server. '
-          'If the server is down, check your deployment dashboard.';
+      return 'The app connects to the cloud server at $_deployedServerUrl. '
+          'If the server just started, it may take up to 30 seconds to wake up '
+          '(Render free tier). Please wait and try again.';
     }
     if (kIsWeb) {
       return 'Token Server must be reachable from your browser. '
@@ -341,6 +434,14 @@ class NetworkConfig {
 
   /// Build a user-friendly error message when the server is unreachable.
   static String unreachableHint(String serverUrl) {
+    if (hasDeployedUrl && serverUrl.startsWith('https://')) {
+      return 'Could not reach the Lex cloud server.\n\n'
+          'The server may be waking up from sleep (this can take up to '
+          '30 seconds on Render free tier). Please wait a moment and '
+          'try again.\n\n'
+          'If the problem persists, check your Render dashboard at:\n'
+          '  https://dashboard.render.com';
+    }
     return 'Could not reach the Lex server at $serverUrl.\n\n'
         '${platformConnectionHint()}\n\n'
         'Make sure the token server is running:\n'
