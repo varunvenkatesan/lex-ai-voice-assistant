@@ -1027,7 +1027,32 @@ class _LexHomePageState extends State<LexHomePage>
       // ── Step 3: Connect to LiveKit ──
       debugPrint('[LEX] Token received, connecting to $liveKitUrl');
       setState(() => _status = 'Connecting to LiveKit...');
-      await _room.connect(liveKitUrl, token);
+      try {
+        await _room.connect(liveKitUrl, token);
+      } catch (connectError) {
+        final errorStr = connectError.toString().toLowerCase();
+        // ICE / PeerConnection timeout — retry once with a fresh token.
+        if (errorStr.contains('peerconnection') ||
+            errorStr.contains('ice') ||
+            errorStr.contains('timed out') ||
+            errorStr.contains('mediaconnect')) {
+          debugPrint(
+            '[LEX] LiveKit connection failed (ICE/PeerConnection), '
+            'retrying with fresh token...',
+          );
+          setState(() => _status = 'Retrying connection...');
+          await Future.delayed(const Duration(seconds: 1));
+          final retryToken = await _fetchToken(
+            serverBase: serverBase,
+            roomName: roomName,
+            identity: _identity,
+            name: displayName,
+          );
+          await _room.connect(liveKitUrl, retryToken);
+        } else {
+          rethrow;
+        }
+      }
 
       // ── Step 4: Persist working URL ──
       unawaited(NetworkConfig.instance.saveTokenServerUrl(serverBase));
@@ -1045,12 +1070,25 @@ class _LexHomePageState extends State<LexHomePage>
       if (_isConnected) {
         await _room.disconnect();
       }
+      final errorStr = e.toString();
+      final lowerError = errorStr.toLowerCase();
+      String userMessage;
+      if (lowerError.contains('peerconnection') ||
+          lowerError.contains('ice') ||
+          lowerError.contains('mediaconnect')) {
+        userMessage = 'Network blocked WebRTC connection. '
+            'Try switching between WiFi and mobile data.';
+      } else if (lowerError.contains('room does not exist') ||
+                 lowerError.contains('not_found')) {
+        userMessage = 'Room setup failed. Please try again.';
+      } else {
+        userMessage = 'Connection failed: ${errorStr.split('\n').first}';
+      }
       setState(() {
         _status = 'Connection failed';
-        _lastError = e.toString();
+        _lastError = errorStr;
       });
-      _showErrorSnackbar(
-          'Connection failed: ${e.toString().split('\n').first}');
+      _showErrorSnackbar(userMessage);
     } finally {
       if (mounted) setState(() => _isConnecting = false);
     }

@@ -207,36 +207,58 @@ async def analyze_vision(payload: VisionAnalyzeRequest) -> dict[str, str]:
 
 @app.post("/token")
 async def create_token(payload: TokenRequest) -> dict[str, str]:
+    import asyncio
+
     try:
         logging.info("Token requested: room=%s identity=%s", payload.room, payload.identity)
-        # Ensure room exists before agent dispatch calls (LiveKit returns 404 otherwise).
         lkapi = api.LiveKitAPI()
         try:
-            rooms = await lkapi.room.list_rooms(api.ListRoomsRequest(names=[payload.room]))
-            if len(rooms.rooms) == 0:
-                await lkapi.room.create_room(api.CreateRoomRequest(name=payload.room))
-                logging.info("Created room=%s", payload.room)
-            else:
-                logging.info("Room already exists: %s", payload.room)
+            # ── Step 1: Always ensure a fresh room exists ──
+            # Delete any stale room first to avoid 404 on dispatch operations,
+            # then create a new one.  This fixes the race condition where LiveKit
+            # auto-cleans idle rooms between reconnections.
+            try:
+                rooms = await lkapi.room.list_rooms(
+                    api.ListRoomsRequest(names=[payload.room])
+                )
+                if len(rooms.rooms) > 0:
+                    # Clean up stale dispatches before deleting the room.
+                    try:
+                        existing = await lkapi.agent_dispatch.list_dispatch(
+                            payload.room
+                        )
+                        for dispatch in existing:
+                            try:
+                                await lkapi.agent_dispatch.delete_dispatch(
+                                    dispatch.id, payload.room
+                                )
+                                logging.info(
+                                    "Removed stale dispatch id=%s room=%s",
+                                    dispatch.id,
+                                    payload.room,
+                                )
+                            except Exception:
+                                pass  # Dispatch may already be gone.
+                    except Exception:
+                        pass  # Room might have been cleaned between list and dispatch.
 
-            # Explicitly dispatch agent to this room (required for worker -> room binding).
-            existing = await lkapi.agent_dispatch.list_dispatch(payload.room)
-            for dispatch in existing:
-                try:
-                    await lkapi.agent_dispatch.delete_dispatch(dispatch.id, payload.room)
-                    logging.info(
-                        "Removed previous dispatch id=%s room=%s agent_name=%s",
-                        dispatch.id,
-                        payload.room,
-                        dispatch.agent_name,
+                    await lkapi.room.delete_room(
+                        api.DeleteRoomRequest(room=payload.room)
                     )
-                except Exception:
-                    logging.exception(
-                        "Failed removing dispatch id=%s room=%s",
-                        dispatch.id,
-                        payload.room,
-                    )
+                    logging.info("Deleted stale room=%s", payload.room)
+                    # Brief pause to let LiveKit propagate the deletion.
+                    await asyncio.sleep(0.3)
+            except Exception:
+                logging.debug("No existing room to clean up for %s", payload.room)
 
+            await lkapi.room.create_room(
+                api.CreateRoomRequest(name=payload.room)
+            )
+            logging.info("Created fresh room=%s", payload.room)
+            # Brief pause to let the room become available for dispatch.
+            await asyncio.sleep(0.3)
+
+            # ── Step 2: Dispatch agent to the new room ──
             await lkapi.agent_dispatch.create_dispatch(
                 api.CreateAgentDispatchRequest(
                     agent_name=AGENT_NAME,
@@ -244,10 +266,13 @@ async def create_token(payload: TokenRequest) -> dict[str, str]:
                     metadata=payload.identity,
                 )
             )
-            logging.info("Created fresh dispatch for room=%s agent=%s", payload.room, AGENT_NAME)
+            logging.info(
+                "Created dispatch for room=%s agent=%s", payload.room, AGENT_NAME
+            )
         finally:
             await lkapi.aclose()
 
+        # ── Step 3: Generate access token ──
         token = (
             api.AccessToken(LIVEKIT_API_KEY, LIVEKIT_API_SECRET)
             .with_identity(payload.identity)
