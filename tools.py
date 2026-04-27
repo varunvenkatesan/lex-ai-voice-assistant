@@ -41,15 +41,166 @@ async def search_web(
     context: RunContext,  # type: ignore
     query: str) -> str:
     """
-    Search the web using DuckDuckGo.
+    Search the web using DuckDuckGo for real-time information.
+    Returns concise, voice-friendly results.
+    Use this for general knowledge, current events, and any query
+    that needs up-to-date internet data.
     """
     try:
         results = DuckDuckGoSearchRun().run(tool_input=query)
         logging.info(f"Search results for '{query}': {results}")
-        return results
+        # Truncate for voice-friendly output (keep under 500 chars)
+        if results and len(results) > 500:
+            # Try to cut at a sentence boundary
+            truncated = results[:500]
+            last_period = truncated.rfind('.')
+            if last_period > 200:
+                truncated = truncated[:last_period + 1]
+            results = truncated
+        return results if results else "I couldn't find any results for that query."
     except Exception as e:
         logging.error(f"Error searching the web for '{query}': {e}")
-        return f"An error occurred while searching the web for '{query}'."    
+        return f"I couldn't find the latest information right now."
+
+
+@function_tool()
+async def get_live_sports_scores(
+    context: RunContext,  # type: ignore
+    sport: str = "cricket",
+    query: str = "",
+) -> str:
+    """
+    Get live or latest sports scores and match updates.
+    Supports cricket (IPL, international), football, and other major sports.
+
+    Args:
+        sport: The sport to check - "cricket", "football", "tennis", etc.
+        query: Optional specific query like team name or tournament (e.g. "IPL", "CSK", "India vs Australia")
+    """
+    try:
+        # Build a targeted search query for sports scores
+        sport_lower = sport.strip().lower()
+        user_query = query.strip()
+
+        if sport_lower == "cricket":
+            if user_query:
+                search_query = f"{user_query} cricket live score today 2026"
+            else:
+                search_query = "IPL cricket live score today 2026"
+        elif sport_lower == "football":
+            if user_query:
+                search_query = f"{user_query} football live score today"
+            else:
+                search_query = "football live scores today Premier League"
+        else:
+            search_query = f"{sport} {user_query} live score today" if user_query else f"{sport} live scores today"
+
+        results = DuckDuckGoSearchRun().run(tool_input=search_query)
+        logging.info(f"Sports search for '{search_query}': {results}")
+
+        if not results or len(results.strip()) < 10:
+            return f"I couldn't find live {sport} scores right now. Try asking again in a moment."
+
+        # Truncate for voice — keep concise
+        if len(results) > 400:
+            truncated = results[:400]
+            last_period = truncated.rfind('.')
+            if last_period > 150:
+                truncated = truncated[:last_period + 1]
+            results = truncated
+
+        return results
+    except Exception as e:
+        logging.error(f"Error fetching {sport} scores: {e}")
+        return f"I couldn't find live {sport} scores right now."
+
+
+# ── RSS Feed URLs for news (no API keys required) ──
+_NEWS_FEEDS = {
+    "india": [
+        "https://feeds.feedburner.com/ndtvnews-top-stories",
+        "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+    ],
+    "world": [
+        "http://feeds.bbci.co.uk/news/world/rss.xml",
+        "https://feeds.feedburner.com/ndtvnews-world-news",
+    ],
+    "technology": [
+        "http://feeds.bbci.co.uk/news/technology/rss.xml",
+        "https://timesofindia.indiatimes.com/rssfeeds/66949542.cms",
+    ],
+    "business": [
+        "https://economictimes.indiatimes.com/rssfeedstopstories.cms",
+        "http://feeds.bbci.co.uk/news/business/rss.xml",
+    ],
+    "sports": [
+        "https://timesofindia.indiatimes.com/rssfeeds/4719148.cms",
+        "http://feeds.bbci.co.uk/sport/rss.xml",
+    ],
+}
+
+
+@function_tool()
+async def get_latest_news(
+    context: RunContext,  # type: ignore
+    category: str = "india",
+    count: int = 5,
+) -> str:
+    """
+    Get latest news headlines from trusted sources.
+    Returns concise, voice-friendly headlines.
+
+    Args:
+        category: News category - "india", "world", "technology", "business", "sports"
+        count: Number of headlines to return (1 to 5, default 5)
+    """
+    import feedparser
+
+    category_lower = category.strip().lower()
+    count = max(1, min(count, 5))
+
+    feeds = _NEWS_FEEDS.get(category_lower, _NEWS_FEEDS["india"])
+    headlines = []
+
+    for feed_url in feeds:
+        if len(headlines) >= count:
+            break
+        try:
+            feed = feedparser.parse(feed_url)
+            for entry in feed.entries:
+                if len(headlines) >= count:
+                    break
+                title = entry.get("title", "").strip()
+                if title and title not in headlines:
+                    headlines.append(title)
+        except Exception as e:
+            logging.warning(f"Failed to parse RSS feed {feed_url}: {e}")
+            continue
+
+    if not headlines:
+        # Fallback to DuckDuckGo news search
+        try:
+            fallback_query = f"latest {category_lower} news today headlines"
+            results = DuckDuckGoSearchRun().run(tool_input=fallback_query)
+            if results:
+                if len(results) > 400:
+                    results = results[:400]
+                    last_period = results.rfind('.')
+                    if last_period > 150:
+                        results = results[:last_period + 1]
+                return f"Here are the latest {category_lower} updates: {results}"
+        except Exception:
+            pass
+        return f"I couldn't fetch {category_lower} news right now. Please try again."
+
+    # Format for voice output
+    news_text = f"Here are today's top {category_lower} headlines: "
+    for i, headline in enumerate(headlines, 1):
+        news_text += f"{i}. {headline}. "
+
+    logging.info(f"News ({category_lower}): {len(headlines)} headlines returned")
+    return news_text.strip()
+
 
 @function_tool()    
 async def send_email(
