@@ -1,9 +1,9 @@
-# ─── Environment / Secrets ───
+# Environment / secrets
 .env
 .env.*
 !.env.example
 
-# ─── Python ───
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -15,26 +15,28 @@ env/
 dist/
 build/
 
-# ─── Logs ───
+# Logs
 *.log
 *.err.log
 *.out.log
+logcat*.txt
 agent_log.txt
 agent_runtime.err.log
 agent_runtime.out.log
+lex_flutter_app/logcat*.txt
 
-# ─── IDE ───
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# ─── OS ───
+# OS
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# ─── Flutter (lex_flutter_app) ───
+# Flutter (lex_flutter_app)
 lex_flutter_app/.dart_tool/
 lex_flutter_app/.packages
 lex_flutter_app/build/
@@ -43,8 +45,8 @@ lex_flutter_app/.flutter-plugins-dependencies
 lex_flutter_app/example/.dart_tool/
 lex_flutter_app/example/build/
 
-# ─── User data ───
+# User data
 user_tasks.json
 
-# ─── KMS / local keys ───
+# KMS / local keys
 KMS/

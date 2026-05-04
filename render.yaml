@@ -1,7 +1,5 @@
-# ─────────────────────────────────────────────────────────────────
-# Render Blueprint — One-click deploy for Lex Token Server
+# Render Blueprint - one-click deploy for Lex Token Server
 # https://render.com/docs/blueprint-spec
-# ─────────────────────────────────────────────────────────────────
 services:
   - type: web
     name: lex-token-server
