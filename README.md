@@ -38,13 +38,15 @@ Lex AI Anime Voice Assistant is an AI voice assistant project with a Flutter cli
   <tr>
     <td align="center"><img width="220" alt="Lex app screenshot 4" src="https://github.com/user-attachments/assets/19546b9e-f2ec-49c5-b2ca-49e57118bd04" /></td>
     <td align="center"><img width="220" alt="Lex app screenshot 5" src="https://github.com/user-attachments/assets/ac63082f-51ad-4d1c-9997-8a61b9d1f597" /></td>
-    <td align="center"><img width="220" alt="Lex app screenshot 6" src="https://github.com/user-attachments/assets/f11bc7ce-7e66-4765-9f1a-ef8256094ff9" /></td>
+    <td align="center"><img width="1080" height="2400" alt="1777054197707" src="https://github.com/user-attachments/assets/595504a3-0d66-4ccd-a17c-4ca196392797" /></td>
   </tr>
   <tr>
     <td align="center"><img width="220" alt="Lex app screenshot 7" src="https://github.com/user-attachments/assets/bc1ab39c-87dc-4fcd-8627-4e9959f412bb" /></td>
     <td align="center"><img width="220" alt="Lex app screenshot 8" src="https://github.com/user-attachments/assets/65dca8b9-2611-46c0-941f-6411e1203998" /></td>
     <td align="center"><img width="220" alt="Lex app screenshot 9" src="https://github.com/user-attachments/assets/9d8299c4-acaf-4a69-8804-1d145c73627b" /></td>
   </tr>
+  
+
 </table>
 
 ## Live2D Character System
