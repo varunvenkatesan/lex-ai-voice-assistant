@@ -2,30 +2,6 @@
 
 Lex AI Anime Personal Assistant is an AI voice assistant project with a Flutter client, LiveKit-powered realtime voice, anime-style Live2D companions, a FastAPI token/chat server, and optional memory support through Mem0. The backend is ready for Render deployment and is configured to keep runtime secrets outside the repository.
 
-## Project Structure
-
-```text
-.
-+-- agent.py                  # LiveKit agent worker
-+-- token_server.py           # FastAPI token, chat, health, and utility API
-+-- render.yaml               # Render Blueprint for the token server
-+-- Dockerfile                # Container entrypoint for the backend
-+-- requirements-server.txt   # Minimal backend deployment dependencies
-+-- requirements.txt          # Full local agent/backend dependencies
-+-- lex_flutter_app/          # Flutter app/plugin and Live2D assets
-+-- supabase/                 # Supabase project files
-+-- .env.example              # Environment variable template
-```
-
-## Features
-
-- Realtime AI voice sessions through LiveKit.
-- Flutter client with Live2D avatar assets.
-- Switchable Live2D companions, including March 7th and IceGirl.
-- FastAPI backend for LiveKit token creation, chat streaming, health checks, and vision analysis.
-- Google Gemini configuration for realtime and text responses.
-- Optional Mem0 memory integration.
-- Render Blueprint deployment support.
 
 ## Screenshots
 
@@ -45,9 +21,37 @@ Lex AI Anime Personal Assistant is an AI voice assistant project with a Flutter 
      <td align="center"><img width="220" alt="Lex app screenshot 8" src="https://github.com/user-attachments/assets/595504a3-0d66-4ccd-a17c-4ca196392797" /></td>
     <td align="center"><img width="220" alt="Lex app screenshot 9" src="https://github.com/user-attachments/assets/9d8299c4-acaf-4a69-8804-1d145c73627b" /></td>
   </tr>
-  
-
 </table>
+
+
+## Features
+
+- Realtime AI voice sessions through LiveKit.
+- Flutter client with Live2D avatar assets.
+- Switchable Live2D companions, including March 7th and IceGirl.
+- FastAPI backend for LiveKit token creation, chat streaming, health checks, and vision analysis.
+- Google Gemini configuration for realtime and text responses.
+- Optional Mem0 memory integration.
+- Render Blueprint deployment support.
+
+
+
+
+## Project Structure
+
+```text
+.
++-- agent.py                  # LiveKit agent worker
++-- token_server.py           # FastAPI token, chat, health, and utility API
++-- render.yaml               # Render Blueprint for the token server
++-- Dockerfile                # Container entrypoint for the backend
++-- requirements-server.txt   # Minimal backend deployment dependencies
++-- requirements.txt          # Full local agent/backend dependencies
++-- lex_flutter_app/          # Flutter app/plugin and Live2D assets
++-- supabase/                 # Supabase project files
++-- .env.example              # Environment variable template
+```
+
 
 ## Live2D Character System
 
