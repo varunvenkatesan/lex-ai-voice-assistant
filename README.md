@@ -1,6 +1,6 @@
-# Lex AI Anime Voice Assistant
+# Lex AI Anime Personal Assistant
 
-Lex AI Anime Voice Assistant is an AI voice assistant project with a Flutter client, LiveKit-powered realtime voice, anime-style Live2D companions, a FastAPI token/chat server, and optional memory support through Mem0. The backend is ready for Render deployment and is configured to keep runtime secrets outside the repository.
+Lex AI Anime Personal Assistant is an AI voice assistant project with a Flutter client, LiveKit-powered realtime voice, anime-style Live2D companions, a FastAPI token/chat server, and optional memory support through Mem0. The backend is ready for Render deployment and is configured to keep runtime secrets outside the repository.
 
 ## Project Structure
 
